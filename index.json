@@ -1,0 +1,18 @@
+[
+  {
+    "id": "my-article-1",
+    "status": "fulfilled"
+  },
+  {
+    "id": "my-article-2",
+    "status": "fulfilled"
+  },
+  {
+    "id": "my-article-3",
+    "status": "fulfilled"
+  },
+  {
+    "id": "my-article-3",
+    "status": "fulfilled"
+  }
+]
