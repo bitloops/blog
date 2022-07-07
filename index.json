@@ -1,18 +1,14 @@
 [
   {
-    "id": "my-article-1",
-    "status": "fulfilled"
+    "id": "my-article-1"
   },
   {
-    "id": "my-article-2",
-    "status": "fulfilled"
+    "id": "my-article-2"
   },
   {
-    "id": "my-article-3",
-    "status": "fulfilled"
+    "id": "my-article-3"
   },
   {
-    "id": "my-article-3",
-    "status": "fulfilled"
+    "id": "my-article-4"
   }
 ]
