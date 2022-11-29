@@ -3,8 +3,9 @@ title: The Journey The Vision: Changing how software is built
 description: Once upon a time...
 author: Sergio
 date: 29-11-2022
-tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Vision', 'Bitloops Journey']
+tags: ['BitloopsLanguage', 'CleanArchitecture']
 ---
+
 # The Pain
 
 Software is eating the world - Marc Andreessen (famous VC investor) said this 10 years ago but it's even more true today! As every company continues to become a technology company inside — regardless of product or service — developers are getting more of a say, but are increasingly frustrated with how software is built and managed by organizations.
