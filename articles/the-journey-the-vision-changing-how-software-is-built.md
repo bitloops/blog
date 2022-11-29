@@ -1,9 +1,9 @@
 ---
-title: This is a test
+title: The Journey The Vision: Changing how software is built
 description: Once upon a time...
-author: bitloops
-date: 02-04-2019
-tags: ['testx', 'test3']
+author: Sergio
+date: 29-11-2022
+tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Vision', 'Bitloops Journey']
 ---
 # The Pain
 
