@@ -3,7 +3,7 @@ title: The Journey, The Vision - Changing how software is built
 description: Once upon a time...
 author: Sergio
 date: 29-11-2022
-tags: ['BitloopsLanguage', 'CleanArchitecture', 'Clean Code']
+tags: ['BitloopsLanguage', 'CleanArchitecture', 'Clean Code', 'Developer Productivity']
 ---
 
 # The Pain
