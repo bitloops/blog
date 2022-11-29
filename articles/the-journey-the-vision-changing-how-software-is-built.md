@@ -1,5 +1,5 @@
 ---
-title: The Journey The Vision Changing how software is built
+title: The Journey, The Vision - Changing how software is built
 description: Once upon a time...
 author: Sergio
 date: 29-11-2022
