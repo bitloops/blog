@@ -3,7 +3,7 @@ title: The Journey, The Vision - Changing how software is built
 description: Once upon a time...
 author: Sergio
 date: 29-11-2022
-tags: ['BitloopsLanguage', 'CleanArchitecture', 'Clean Code', 'Developer Productivity']
+tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity']
 ---
 
 # The Pain
@@ -16,7 +16,7 @@ And indeed, this is precisely what we (Vasilis and myself) experienced first-han
 
 In the past, software was thought of as a linear and organized process where you would define the requirements, design the system, code it, run some tests and then maintain. But this is no longer the case. 
 
-Systems (or tech stacks) or organically evolving ecosystems and new features are idealized on a daily basis. Moreover, the ease of API integrations, and the spread of service-oriented architectures, means the possibilities are endless. However, this does mean that developers are increasingly worried about the unintended consequences of making certain changes, particularly if the code is not well structured or there aren’t any automatic tests. 
+Systems (or tech stacks) or organically evolving ecosystems and new features are idealized on a daily basis. Moreover, the ease of API integrations, and the spread of service-oriented architectures, means the possibilities are endless. However, this does mean that developers are increasingly worried about the unintended consequences of making certain changes, particularly if the code is not well structured or there aren’t any automated tests. 
 
 Any system will eventually mature into a complex array of services, objects, interfaces and infrastructure, and most of the time, additional features only make it harder to make further changes to the system. Developers need to be able to understand (and train new developers), maintain and extend systems with relative ease - they cannot spend most of the time understanding how the code works before writing new code. 
 
@@ -42,7 +42,7 @@ All Software Engineers want nice clean and well-designed code so they can ship n
 
 The [Bitloops Language](https://bitloops.com/bitloops-language) has been designed by taking into consideration the best practices and methodologies in software design, as well as taking into account the basic principles of software development and lifecycle such as deployment, security and integration with 3rd party services. The platform is able to guide developers in developing well-structured code and high-quality systems, without having to compromise on speed, and is based on 4 core principles:
 
-1. **Developer first:** Bitloops has been designed around developers’ thinking, coding practices and day-to-day activities. Therefore, Bitloops This enables developers to be far more productive and faster 
+1. **Developer first:** Bitloops has been designed around developers’ thinking, coding practices and day-to-day activities. Therefore, Bitloops enables developers to be far more productive and faster 
 
 2. **Guiding blocks:** The Bitloops Language is opinionated in the sense that it guides developers to follow widely accepted best practices and design patterns that will ensure developers avoid big balls of mud in their code, and that the system remains flexible enough for iteration and/or refactoring 
 
