@@ -1,6 +1,6 @@
 ---
-title: The Journey, The Vision - Changing how software is built
-description: Once upon a time...
+title: The Journey, The Vision - Changing backend software | Bitloops
+description: How often have your product ideas been shelved due to lack of resources, or high cost / time to implement? Well, we at Bitloops want to change that!
 author: Sergio
 date: 29-11-2022
 tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity']

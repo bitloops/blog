@@ -1,9 +1,9 @@
 ---
-title: The future of Backend Development is written with high-productivity, fourth generation programming language
-description: Inspirational article about the future of backend development and how Low-Code will not solve this problem
+title: Bitloops - Backend Development with high-productivity language
+description: The future of backend development is with a high-productivity, 4th generation programming language that boosts developer velocity throughout entire lifecycle.
 author: Sergio
 date: 04-12-2022
-tags: ['Backend Development', 'Bitloops Language', 'Developer Productivity', 'Future of Software']
+tags: ['Backend Development', 'Bitloops Language', 'Developer Productivity', 'Future of Software', 'developer velocity']
 --- 
 
 # The future of Backend Development is written with high-productivity, fourth generation programming language
