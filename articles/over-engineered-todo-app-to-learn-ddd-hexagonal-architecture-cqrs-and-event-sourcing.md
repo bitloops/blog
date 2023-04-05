@@ -3,8 +3,8 @@ title: Over-engineered ToDo App to learn DDD, Hexagonal Architecture, CQRS, and 
 description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
 author: Vasilis
 date: 05-04-2023
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
-tags: ['Software Development', 'Software Engineering', 'DDD', 'CQRS', 'Hexagonal Architecture', 'BDD', 'Software Patterns', 'clean code', 'clean architecture']
+image: https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif
+tags: [Software Engineering', 'DDD', 'CQRS', 'Hexagonal Architecture', 'Software Patterns', 'clean architecture']
 ---
 
 # Enterprise Edition ToDo App - Clean and SOLID tech stack codebase example
@@ -17,9 +17,9 @@ That's why we we went to the drawing board, did a lot of research into software 
 
 After many months of learning, building and iterating, we decided to create the Ultimate ToDo app that follows these great software design patterns and principles. It is clearly over-engineered for a simple ToDo App, but we believe it provides a great example on which anyone can use to build great applications.  
 
-https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif
+<img src="https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif" alt="todo app showcase"/>
 
-You can find the entire codebase in our GitHub Repo: [ddd-hexagonal-cqrs-es-eda](https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda)
+You can find the entire codebase in our GitHub Repo: <a href="https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda">ddd-hexagonal-cqrs-es-eda</a>
 
 This implementation reference has been designed to help you build software that's organized, easy to understand, and easy to change. And the best part, it uses available open-source technologies.
 
