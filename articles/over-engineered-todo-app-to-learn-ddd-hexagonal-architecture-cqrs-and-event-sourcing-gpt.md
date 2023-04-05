@@ -7,7 +7,7 @@ image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light
 tags: ['Software Development', 'Software Engineering', 'DDD', 'CQRS', 'Hexagonal Architecture', 'BDD', 'Software Patterns', 'clean code', 'clean architecture']
 ---
 
-# Enterprise Edition ToDo App - Clean and SOLID tech stack codebase example
+# Clean and SOLID tech stack codebase example using DDD: ToDo App Enterprise Edition
 
 Tired of building software that's hard to understand, difficult to change, and prone to bugs? So were we. This led us to research software architectures, patterns, and design techniques, and ultimately create the Ultimate ToDo app that follows these best practices. This post will walk you through our thought process and implementation.
 
