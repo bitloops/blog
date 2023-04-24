@@ -51,7 +51,7 @@ We believe that:
 
 **Oh yes, we are big believers**, and that’s why we are building [Bitloops](https://bitloops.com/), a developer platform that will allow developers to build software using best practices and methodologies, creating systems that are testable, maintainable and extendable, 10x faster and better than current options. 
 
-At its core, Bitloops has the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language), which is a 4th generation, high productivity programming language that guides teams to write code following the agreed industry best design practices such as [DDD](https://bitloops.com/docs/bitloops-language/learning/domain-driven-design), Clean Architecture, SOLID and Clean Code.
+At its core, Bitloops has the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language), which is a 4th generation, high productivity programming language that guides teams to write code following the agreed industry best design practices such as [DDD](https://bitloops.com/docs/bitloops-language/learning/software-design/domain-driven-design), Clean Architecture, SOLID and Clean Code.
 
 Because we are believers, we want to push the boundaries of backend development to a whole new level, where developers and domain experts once again spend most of their time thinking, designing and solving problems in the best possible way. 
 
