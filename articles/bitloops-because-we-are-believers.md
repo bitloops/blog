@@ -16,7 +16,7 @@ Software development specifically has gone through rapid changes as well, starti
 
 In order to answer this question, it's necessary to think about how software is managed, deployed and executed, and build a developer platform that takes advantage of all the best existing tools, frameworks and infrastructure. We need to think about software development from a first principles perspective, taking into account current possibilities and limitations such as cloud & distributed computing, interoperability, network and latency, artificial intelligence and machine learning. 
 
-![image test](bitloops-com/assets/AI Engineer.png) 
+![image test](public/android-chrome-192x192.png) 
  
 # So, what do we know?
 
