@@ -15,6 +15,8 @@ This may seem like an impossible vision, but history has shown us that transform
 Software development specifically has gone through rapid changes as well, starting off with assembly language, low-level programming languages, compilers until we reach modern day software programming that uses high level and object oriented programming languages. But what’s next? How can software development take the next leap?
 
 In order to answer this question, it's necessary to think about how software is managed, deployed and executed, and build a developer platform that takes advantage of all the best existing tools, frameworks and infrastructure. We need to think about software development from a first principles perspective, taking into account current possibilities and limitations such as cloud & distributed computing, interoperability, network and latency, artificial intelligence and machine learning. 
+
+![image test](image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg) 
  
 # So, what do we know?
 
