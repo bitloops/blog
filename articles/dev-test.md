@@ -8,6 +8,8 @@ tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Pl
 ---
 # Bitloops, because we are believers.
 
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
+
 The founding team at Bitloops has been obsessing over developer productivity for a few years. We constantly say to each other: “how cool would it be if software was built in such a way that there was no technical debt, where developing a feature for a complex and mature product was as easy as developing a feature for a new (greenfield) application? Why can’t we achieve this?”
 
 This may seem like an impossible vision, but history has shown us that transformative ideas are necessary and possible. We had the printing press, the steam engine, radio and tv, as well as the computer in the last 200 years that radically changed the world for better and provided the impetus for exponential growth. 
