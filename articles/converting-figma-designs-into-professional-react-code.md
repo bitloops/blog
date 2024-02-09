@@ -1,10 +1,10 @@
 ---
-title: Converting Figma Designs into Professional React Code!
-description: Unlock the power of seamless UI development with our expert guide on converting Figma designs into React code. Discover tips, best practices, and step-by-step tutorials to transform your designs into dynamic, responsive web applications.
-author: Sergio
-date: 9-02-2024
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/code.jpg
-tags: [Keywords: 'Convert Figma to React', Figma to React JS', 'Figma to React Converter', 'React JS tutorial', 'React JS for beginners']
+title: Bitloops - Because we are Believers!
+description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
+author: Vasilis
+date: 30-11-2022
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
+tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'backend development platform']
 ---
 
 # Converting
