@@ -64,9 +64,7 @@ Transforming designs into code involves a series of intricate, often repetitive 
 **Mitigation:** Early communication between designers and developers about the capabilities and limitations of the tech stack can prevent such issues.
 
 
-<centre>
-![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png) 
-</centre>
+![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
 <centre>Fullstack Developer Programming Languages, source: pixabay</centre>
 
 #### Resource Allocation and Prioritization:
