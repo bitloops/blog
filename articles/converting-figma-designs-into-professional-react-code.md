@@ -6,9 +6,8 @@ date: 9-02-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/figma-to-react.png
 tags: [Keywords: 'convert Figma to React', Figma to React JS', 'Figma to React Converter', 'React JS tutorial', 'React JS for beginners', 'backend development platform']
 ---
+
 # Converting Figma Designs into Professional React Code 
-
-
 Web development is changing fast, with some even suggesting that AI is going to replace web developers (not true), but one thing remains constant: you will be a better frontend engineer if you understand the first principles. 
 In frontend engineering, that means understanding how you should convert a web design, provided by a designer or UX specialist, into code that not only meets the design specification, but is maintainable and easy to adjust in the future when new needs arise. 
 In fact, having this “first-principle” understanding is not only an advantage to help you be more efficient, it may very well be a key necessity going forward when leveraging up and coming tools (more about this below) to streamline your workflow from design to code.  
@@ -38,10 +37,7 @@ Transforming designs into code involves a series of intricate, often repetitive 
 **Impact:** Developers might end up coding outdated designs, leading to wasted effort and the need for rework.
 **Mitigation:** Utilizing version control systems for design files (like Abstract for Sketch or integrated version control in Figma) and having a clear process for design handoff can mitigate these issues.
 
-<centre>
-![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png) 
-</centre>
-<centre>File version history, source: figma</centre>
+
 
 #### Scaling Design Consistency:
 **Issue:** As projects grow, maintaining design consistency across a wide range of components and applications becomes increasingly difficult.
@@ -63,9 +59,6 @@ Transforming designs into code involves a series of intricate, often repetitive 
 **Impact:** Developers might need to compromise on the design vision or spend extra time finding workarounds.
 **Mitigation:** Early communication between designers and developers about the capabilities and limitations of the tech stack can prevent such issues.
 
-
-![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
-<centre>Fullstack Developer Programming Languages, source: pixabay</centre>
 
 #### Resource Allocation and Prioritization:
 **Issue:** Limited resources and conflicting priorities can lead to bottlenecks, where critical design-to-code tasks are delayed.
