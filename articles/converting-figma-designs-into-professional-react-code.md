@@ -45,7 +45,8 @@ Transforming designs into code involves a series of intricate, often repetitive 
 **Mitigation:** Utilizing version control systems for design files (like Abstract for Sketch or integrated version control in Figma) and having a clear process for design handoff can mitigate these issues.
 
 
-
+![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
+<centre>File version history, source: figma</centre>
 
 
 
@@ -72,7 +73,8 @@ Transforming designs into code involves a series of intricate, often repetitive 
 **Impact:** Developers might need to compromise on the design vision or spend extra time finding workarounds.
 **Mitigation:** Early communication between designers and developers about the capabilities and limitations of the tech stack can prevent such issues.
 
-
+![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
+<centre>Fullstack Developer Programming Languages, source: pixabay</centre>
 
 
 #### Resource Allocation and Prioritization:
