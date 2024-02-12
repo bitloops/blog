@@ -1,5 +1,5 @@
 ---
-title: Managing Images - A Comprehensive Guide to Frontend Excellence
+title: Taming the Asset Jungle in Frontend Development
 description: Elevate user experience with innovative strategies for frontend asset optimization. 
 author: Sergio
 date: 12-02-2024
