@@ -46,7 +46,7 @@ Transforming designs into code involves a series of intricate, often repetitive 
 
 
 ![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
-<centre>File version history, source: figma</centre>
+<div style="text-align: center;">File version history, source: figma</div>
 
 
 
