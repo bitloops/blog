@@ -1,5 +1,5 @@
 ---
-title: Over-engineered ToDo App to learn DDD, Hexagonal Architecture, CQRS, and Event Sourcing
+title: Over-engineered ToDo App - Learn DDD, Hexagonal Architecture, CQRS, & Event Sourcing
 description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
 author: Vasilis
 date: 05-04-2023
@@ -23,7 +23,7 @@ Good software architecture practices preach the separation of business logic cod
 
 So, we followed the hexagonal architecture.
 
-![image test](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
+![Hexagonal Architecture](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/hexagonal-architecture.png)
 
 We have separated the domain and application code from all the other code, including the website (UI), the authentication, the database, and the tracing and observability tools we use.
 
@@ -33,7 +33,7 @@ To understand the domain, you need to get domain experts, product managers, and 
 
 One of our favorite approaches to thinking of events and documenting the main functionality of a system is using Event Storming.
 
-// TOOD Add image
+![Event Storming](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/workflow.png)
 
 This process not only helps you understand the domain better, but it also helps you structure the domain into the best modules or bounded contexts.
 
@@ -67,7 +67,7 @@ Now that we know the bounded contexts, modules, components, aggregates, entities
 
 We have a clear project folder structure that follows the output of the event storming:
 
-// TODO add image
+![Project Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure.png)
 
 As you can see, there is a folder for the:
 
@@ -84,7 +84,7 @@ This is where the high-value code lies. This is what differentiates your applica
 
 Focusing on the Todo process, it should be apparent how this process is set up:
 
-// TODO add image
+![ToDo App Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure-2.png)
 
 As a quick overview, you have:
 

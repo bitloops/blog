@@ -1,7 +1,7 @@
 ---
 title: Figma to Next.js - A Beginners Guide
 description: Step-by-step guide on how to convert figma designs into a Next.js project, ensuing the code is well-structured, responsive and component-based. Overview of the key steps, challenges and how Next.js and Bitloops can expedite the process 
-author: Sergio
+author: Vasilis
 date: 12-02-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Figma-to-next.jpg
 tags: ['Software Development', 'Figma-2-Next.js', 'Design-2-Code','Frontend AI-Agent']
