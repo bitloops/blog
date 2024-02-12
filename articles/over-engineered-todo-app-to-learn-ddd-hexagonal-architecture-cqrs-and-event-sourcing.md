@@ -11,7 +11,7 @@ tags: ['Software Development', 'Software Engineering', 'DDD', 'CQRS', 'Hexagonal
 
 Tired of building software that's hard to understand, difficult to change, and prone to bugs? So were we. This led us to research software architectures, patterns, and design techniques, and ultimately create the Ultimate ToDo app that follows these best practices. This post will walk you through our thought process and implementation.
 
-https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif
+![image test](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
 
 You can find the entire codebase in our GitHub Repo: [ddd-hexagonal-cqrs-es-eda](https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda)
 
@@ -23,7 +23,7 @@ Good software architecture practices preach the separation of business logic cod
 
 So, we followed the hexagonal architecture.
 
-// TODO IMAGE
+![image test](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
 
 We have separated the domain and application code from all the other code, including the website (UI), the authentication, the database, and the tracing and observability tools we use.
 
