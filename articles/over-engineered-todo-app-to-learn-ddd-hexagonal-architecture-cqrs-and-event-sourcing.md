@@ -42,8 +42,12 @@ One of our favorite approaches to thinking of events and documenting the main fu
 &nbsp;
 ![Event Storming](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/workflow.png)
 &nbsp;
-{: .center}
-Event Storming
+<style>
+  .center {
+    text-align: center;
+  }
+</style>
+<span class="center">Event Storming</span>
 &nbsp;
 
 This process not only helps you understand the domain better, but it also helps you structure the domain into the best modules or bounded contexts.
