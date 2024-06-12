@@ -6,7 +6,7 @@ date: 30-11-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
 tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'backend development platform']
 ---
-# Bitloops, because we are believers.
+## Bitloops, because we are believers!
 
 The founding team at Bitloops has been obsessing over developer productivity for a few years. We constantly say to each other: “how cool would it be if software was built in such a way that there was no technical debt, where developing a feature for a complex and mature product was as easy as developing a feature for a new (greenfield) application? Why can’t we achieve this?”
 
@@ -15,10 +15,13 @@ This may seem like an impossible vision, but history has shown us that transform
 Software development specifically has gone through rapid changes as well, starting off with assembly language, low-level programming languages, compilers until we reach modern day software programming that uses high level and object oriented programming languages. But what’s next? How can software development take the next leap?
 
 In order to answer this question, it's necessary to think about how software is managed, deployed and executed, and build a developer platform that takes advantage of all the best existing tools, frameworks and infrastructure. We need to think about software development from a first principles perspective, taking into account current possibilities and limitations such as cloud & distributed computing, interoperability, network and latency, artificial intelligence and machine learning. 
+<br>
 
 ![image test](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg) 
+
+<br>
  
-# So, what do we know?
+## So, what do we know?
 
 We know software development is increasingly frustrating - ask any software engineer. And there are multiple reasons for this: 
 - Inappropriate and inflexible architecture 
@@ -34,7 +37,7 @@ At the core, the issue is complexity and how to manage it. Complexity is the gre
 
 Even the best and most experienced software engineers struggle to add new code on complex and complicated source code. It becomes almost impossible to debug and engineers will simply resign, which further exacerbates the problem as knowledge of how the software works is lost. It’s a death spiral many companies have experienced over the years, but it doesn’t have to be this way - there is a better way to develop and manage software. 
  
-# And, what do we believe?
+## And, what do we believe?
 
 We believe the software revolution is just beginning and will be the main driver of change in the next 20 years. We also believe that speed and simplicity can go hand in hand, and that investing in simplicity will greatly increase speed. In fact, software development is much more than coding, it's about coordination, communication, analysis, design, testing, project management, and domain expertise.
 
