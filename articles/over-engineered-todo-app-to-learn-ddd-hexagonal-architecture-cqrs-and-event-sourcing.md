@@ -26,7 +26,7 @@ So, we followed the hexagonal architecture.
 
 &nbsp;
 ![Hexagonal Architecture](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/hexagonal-architecture.png)
-<div style="text-align: center;">Hexagonal Architecture</div>
+<span style="text-align: center;">Hexagonal Architecture</span>
 &nbsp;
 
 
