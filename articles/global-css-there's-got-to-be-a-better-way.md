@@ -32,8 +32,11 @@ Flexbox: While CSS Grid excels in two-dimensional layouts, Flexbox is better sui
 Given the amount (and variance) of devices that access the web access, size and capabilities differ which means responsive design is now an obligation. Media queries are the cornerstone of responsive design, enabling CSS to adapt styles based on specific conditions such as screen width, resolution, or device orientation.
 Media Queries: developers can apply different styling rules based on the device characteristics by defining specific media queries (screen size dimensions). This adaptability ensures that a website offers an optimal viewing experience across all devices, from large desktop monitors to compact mobile screens, enhancing both functionality and aesthetic appeal
 
+&nbsp;
 ![Responsive Design](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Responsive_Design.jpg)
-<centre>Responsive Designs</centre>
+<div style="text-align: center;">Responsive Designs</div>
+&nbsp;
+
 
 ### CSS Custom Properties: Enhancing Flexibility and Maintainability
 CSS custom properties, often referred to as CSS variables, are entities defined by developers that can be reused throughout the document. They signify a major leap in how CSS is written and maintained.
@@ -136,8 +139,10 @@ In this section, we'll explore effective strategies for organizing CSS, maintain
 - Directory Structure: Organize CSS files in a clear, hierarchical structure that mirrors the component architecture of your application. Grouping related styles and separating global styles from component-specific styles can simplify navigation and maintenance.
 - Component Scoping: Leverage the scoping mechanisms provided by your framework or preprocessor to ensure that styles are tightly bound to their respective components, reducing the risk of unintended interactions.
 
+&nbsp;
 ![Cascading Style Sheets Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/cascading_style_sheets.jpg)
-<centre>Cascading Style Sheets (CSS) Structure</centre>
+<div style="text-align: center;">Cascading Style Sheets (CSS) Structure</div>
+&nbsp;
 
 ### Maintaining and Updating
 - Code Reviews: Regular code reviews can help identify issues early, promote best practices, and ensure consistency across the codebase.
