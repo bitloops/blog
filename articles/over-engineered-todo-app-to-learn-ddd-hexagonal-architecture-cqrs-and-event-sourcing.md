@@ -11,9 +11,10 @@ tags: ['Software Development', 'Software Engineering', 'DDD', 'CQRS', 'Hexagonal
 
 Tired of building software that's hard to understand, difficult to change, and prone to bugs? So were we. This led us to research software architectures, patterns, and design techniques, and ultimately create the Ultimate ToDo app that follows these best practices. This post will walk you through our thought process and implementation.
 
-![image test](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
-
-You can find the entire codebase in our GitHub Repo: [ddd-hexagonal-cqrs-es-eda](https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda)
+&nbsp;
+![to do app by Bitloops](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
+<div style="text-align: center;">You can find the entire codebase in our GitHub Repo: <a href="https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda">ddd-hexagonal-cqrs-es-eda</a></div>
+&nbsp;
 
 This implementation reference has been designed to help you build software that's organized, easy to understand, and easy to change. And the best part, it uses available open-source technologies.
 
@@ -21,9 +22,13 @@ This implementation reference has been designed to help you build software that'
 
 Good software architecture practices preach the separation of business logic code from infrastructure code (infrastructure means all external components like database, UI, servers, etc.). This ensures your code is organized, easy to understand, and easy to change.
 
-So, we followed the hexagonal architecture.
+So, we followed the hexagonal architecture. 
 
+&nbsp;
 ![Hexagonal Architecture](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/hexagonal-architecture.png)
+<div style="text-align: center;">Hexagonal Architecture</div>
+&nbsp;
+
 
 We have separated the domain and application code from all the other code, including the website (UI), the authentication, the database, and the tracing and observability tools we use.
 
@@ -33,7 +38,11 @@ To understand the domain, you need to get domain experts, product managers, and 
 
 One of our favorite approaches to thinking of events and documenting the main functionality of a system is using Event Storming.
 
+
+&nbsp;
 ![Event Storming](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/workflow.png)
+<div style="text-align: center;">Event Storming</div>
+&nbsp;
 
 This process not only helps you understand the domain better, but it also helps you structure the domain into the best modules or bounded contexts.
 
@@ -67,7 +76,10 @@ Now that we know the bounded contexts, modules, components, aggregates, entities
 
 We have a clear project folder structure that follows the output of the event storming:
 
+&nbsp;
 ![Project Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure.png)
+<div style="text-align: center;">Project Folder Structure</div>
+&nbsp;
 
 As you can see, there is a folder for the:
 
@@ -84,7 +96,10 @@ This is where the high-value code lies. This is what differentiates your applica
 
 Focusing on the Todo process, it should be apparent how this process is set up:
 
+&nbsp;
 ![ToDo App Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure-2.png)
+<div style="text-align: center;">ToDo App Folder Structure</div>
+&nbsp;
 
 As a quick overview, you have:
 

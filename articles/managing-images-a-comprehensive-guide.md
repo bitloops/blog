@@ -142,9 +142,10 @@ Optimizing assets, particularly images, is a critical step in enhancing the perf
   - Based on the AV1 video codec, it brings advanced compression algorithms to images.
   - Browser support is growing but still limited, so similar to WebP, fallbacks are necessary.
 
-  ![Modern Image and Format Options](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/asset_decision_making.jpg)
-<centre>Modern Image and Format Options</centre>
-
+&nbsp;
+![Modern Image and Format Options](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/asset_decision_making.jpg)
+<div style="text-align: center;">Modern Image and Format Options</div>
+&nbsp;
 
 ### Decision-Making in Image Optimization
 Choosing the right optimization technique or image format is not always straightforward. It often involves a trade-off between development effort, performance gains, and compatibility. Here's how to approach this decision-making process:
