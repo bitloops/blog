@@ -4,22 +4,26 @@ description: Designing, building and managing large and complex software does no
 author: Vasilis
 date: 30-11-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
-tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'backend development platform']
+tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'software development platform']
 ---
 ## Bitloops, because we are believers!
 
-The founding team at Bitloops has been obsessing over developer productivity for a few years. We constantly say to each other: “how cool would it be if software was built in such a way that there was no technical debt, where developing a feature for a complex and mature product was as easy as developing a feature for a new (greenfield) application? Why can’t we achieve this?”
+The founding team at Bitloops has been obsessing over developer productivity for a few years. We constantly say to each other: **“how cool would it be if software was built in such a way that there was no technical debt?"** or **"wouldn't it be great if a feature for a complex and mature product was as easy as developing a feature for a new (greenfield) application?"** 
+
+Why haven't we been able to achieve this?
 
 This may seem like an impossible vision, but history has shown us that transformative ideas are necessary and possible. We had the printing press, the steam engine, radio and tv, as well as the computer in the last 200 years that radically changed the world for better and provided the impetus for exponential growth. 
 
 Software development specifically has gone through rapid changes as well, starting off with assembly language, low-level programming languages, compilers until we reach modern day software programming that uses high level and object oriented programming languages. But what’s next? How can software development take the next leap?
 
-In order to answer this question, it's necessary to think about how software is managed, deployed and executed, and build a developer platform that takes advantage of all the best existing tools, frameworks and infrastructure. We need to think about software development from a first principles perspective, taking into account current possibilities and limitations such as cloud & distributed computing, interoperability, network and latency, artificial intelligence and machine learning. 
-
 &nbsp;
 ![believe in our idea](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg) 
-<div style="text-align: center;">Lightbulb moment?</div>
 &nbsp;
+
+In order to answer this question, it's necessary to think about how software is managed, deployed and executed, and build a developer platform that takes advantage of all the best existing tools, frameworks and infrastructure. 
+
+We need to think about software development from a first principles perspective, taking into account current possibilities and limitations such as cloud & distributed computing, interoperability, network and latency, artificial intelligence and machine learning. 
+
 
 ## So, what do we know?
 
@@ -56,8 +60,10 @@ We believe that:
 
 **Oh yes, we are big believers**, and that’s why we are building [Bitloops](https://bitloops.com/), a developer platform that will allow developers to build software using best practices and methodologies, creating systems that are testable, maintainable and extendable, 10x faster and better than current options. 
 
-At its core, Bitloops has the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language), which is a 4th generation, high productivity programming language that guides teams to write code following the agreed industry best design practices such as [DDD](https://bitloops.com/docs/bitloops-language/learning/software-design/domain-driven-design), Clean Architecture, SOLID and Clean Code.
+We've already launched the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language), which is a 4th generation, high productivity programming language that guides teams to write code following the agreed industry best design practices such as [DDD](https://bitloops.com/docs/bitloops-language/learning/software-design/domain-driven-design), Clean Architecture, SOLID and Clean Code.
 
-Because we are believers, we want to push the boundaries of backend development to a whole new level, where developers and domain experts once again spend most of their time thinking, designing and solving problems in the best possible way. 
+Moreover, we're now working on a [design-2-code tool](https://bitloops.com/#why-section) that will act as a Co-Pilot to frontend engineers building user interfances. It not only does all the nitty gritty work in seconds, but it helps developers structure code, data models and leverage design principles with ease.  
 
-### Now the question is: are you also a Believer?
+Because we are believers, we want to push the boundaries of software development to a whole new level, where developers and domain experts once again spend most of their time thinking, designing and solving problems in the best possible way. 
+
+**Now the question is: are you also a Believer?**
