@@ -1,19 +1,22 @@
 ---
-title: Over-engineered ToDo App - Learn DDD, Hexagonal Architecture, CQRS, & Event Sourcing
+title: Over-engineered ToDo App using DDD, CQRS, Hexagonal Architecture & Event Sourcing
 description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
 author: Vasilis
 date: 05-04-2023
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/todo-app.jpg
-tags: ['Software Development', 'Software Engineering', 'DDD', 'CQRS', 'Hexagonal Architecture', 'BDD', 'Software Patterns', 'clean code', 'clean architecture']
+tags: ['Domain-Driven-Design', 'CQRS', 'Hexagonal Architecture', 'Software Patterns', 'clean architecture', 'Event Sourcing']
 ---
 
-## Clean and SOLID tech stack codebase example using DDD: ToDo App Enterprise Edition
+## Clean, SOLID, DDD tech stack for ToDo App
 
-Tired of building software that's hard to understand, difficult to change, and prone to bugs? So were we. This led us to research software architectures, patterns, and design techniques, and ultimately create the Ultimate ToDo app that follows these best practices. This post will walk you through our thought process and implementation.
+Tired of building software that's hard to understand, difficult to change, and prone to bugs? So were we. 
+
+This led us to research software architectures, patterns, and design techniques, and ultimately create the Ultimate ToDo app that follows these best practices. 
+
+This post will walk you through our thought process and implementation.
 
 &nbsp;
 ![to do app by Bitloops](https://storage.googleapis.com/bitloops-github-assets/ddd-hexagonal-cqrs-es-eda-2.gif)
-<div style="text-align: center;">You can find the entire codebase in our GitHub Repo: <a href="https://github.com/bitloops/ddd-hexagonal-cqrs-es-eda">ddd-hexagonal-cqrs-es-eda</a></div>
 &nbsp;
 
 This implementation reference has been designed to help you build software that's organized, easy to understand, and easy to change. And the best part, it uses available open-source technologies.
@@ -26,7 +29,6 @@ So, we followed the hexagonal architecture.
 
 &nbsp;
 ![Hexagonal Architecture](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/hexagonal-architecture.png)
-<span style="text-align: center;">Hexagonal Architecture</span>
 &nbsp;
 
 
@@ -42,38 +44,42 @@ One of our favorite approaches to thinking of events and documenting the main fu
 &nbsp;
 ![Event Storming](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/workflow.png)
 &nbsp;
-<table style="width:100%">
-<tr>
-  <td style="text-align:center;">Event Storming</td>
-</tr>
-</table>
-&nbsp;
 
 This process not only helps you understand the domain better, but it also helps you structure the domain into the best modules or bounded contexts.
 
 For this app, we created 3 bounded contexts:
 
-1. IAM
+1. IAM <br>
   a. User Login process
   b. User Registration process
-1. Todo
+1. Todo <br>
   a. Todo Process
-1. Marketing
+1. Marketing <br>
   a.Onboarding Process
 
 Each of these bounded contexts are separate and should be treated as such.
 
 Focusing on the Todo Process as it is the core domain here, we have identified 5 commands, namely:
 
-* Add Todo
-* Complete Todo
-* Uncomplete Todo
-* Modify Todo Title
-* Delete Todo
+* **Add Todo**
+* **Complete Todo**
+* **Uncomplete Todo**
+* **Modify Todo Title**
+* **Delete Todo**
 
-Each of these commands is a separate use case and should be separate from each other, which we’ll dig into in the next section. Each command is followed by a command handler which interacts with your domain (either some root entity or a domain service) generating a list of domain events and then passes these changes (along with the domain events) to a repository in order to be persisted and the domain events dispatched to the message bus to become available to other parts of the system that need to be informed of the changes that took place in an eventually consistent manner.  
+Each of these commands is a separate use case and should be separate from each other, which we’ll dig into in the next section. 
 
-Now, I cannot stress enough how important this design step is. If you do this well, and you really think and tweak and go back and forth with your domain experts on this, you will get to a point where the actual coding is quite simple. One very important thing to keep in mind is that many times when deciding how you should approach a situation there won’t be a perfect answer and it is always a very good idea to think and evaluate alternative ways of doing things. Only then can you hope to reach a conclusion that will help you the most. The reason there is no perfect solution is that your choices, most of the time, will involve guessing how things will evolve in the future and since you probably cannot tell what the future holds with certainty you have to make your best guess and decide how to proceed based on those assumptions. In any ways, always try to come up with alternative ways to implement something and debate the pros and cons.
+Each command is followed by a command handler which interacts with your domain (either some root entity or a domain service) generating a list of domain events and then passes these changes (along with the domain events) to a repository in order to be persisted
+
+The domain events dispatched to the message bu become available to other parts of the system that need to be informed of the changes that took place in an eventually consistent manner.  
+
+Now, I cannot stress enough how important this design step is. If you do this well, and you really think and tweak and go back and forth with your domain experts on this, you will get to a point where the actual coding is quite simple. 
+
+One very important thing to keep in mind is that many times when deciding how you should approach a situation there won’t be a perfect answer and it is always a very good idea to think and evaluate alternative ways of doing things. Only then can you hope to reach a conclusion that will help you the most. 
+
+The reason there is no perfect solution is that your choices, most of the time, will involve guessing how things will evolve in the future and since you probably cannot tell what the future holds with certainty you have to make your best guess and decide how to proceed based on those assumptions. 
+
+In any ways, always try to come up with alternative ways to implement something and debate the pros and cons.
 
 ## It’s all in the code!
 
@@ -83,13 +89,12 @@ We have a clear project folder structure that follows the output of the event st
 
 &nbsp;
 ![Project Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure.png)
-<div style="text-align: center;">Project Folder Structure</div>
 &nbsp;
 
 As you can see, there is a folder for the:
 
 * APIs
-* bounded-context (concretions related to your bounded contexts)
+* Bounded-context (concretions related to your bounded contexts)
 * Config
 * lib/bounded-contexts (everything related to domain or business logic code specific to your application but unaware of your infrastructure)
 
@@ -103,7 +108,6 @@ Focusing on the Todo process, it should be apparent how this process is set up:
 
 &nbsp;
 ![ToDo App Folder Structure](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/folder-structure-2.png)
-<div style="text-align: center;">ToDo App Folder Structure</div>
 &nbsp;
 
 As a quick overview, you have:
