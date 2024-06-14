@@ -48,6 +48,7 @@ Transforming designs into code involves a series of intricate, often repetitive 
 
 &nbsp;
 ![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
+<div style="text-align: center;">File version history, source: figma</div>
 &nbsp;
 
 
@@ -76,6 +77,7 @@ Transforming designs into code involves a series of intricate, often repetitive 
 
 &nbsp;
 ![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
+<div style="text-align: center;">Fullstack Developer Programming Languages, source: pixabay</div>
 &nbsp;
 
 #### Resource Allocation and Prioritization:
