@@ -1,6 +1,6 @@
 ---
-title: New Version Announcement - Empowering Developers with Enhanced Control
-description: After Bitloops' first release, developers provided feedback on how they want the design-to-code process to be, what features they would like to have access to and the level of control required to incorporate Bitloops into their development workflow. 
+title: New Version - Empowering Developers with Enhanced Control
+description: Discover how Bitloops revolutionizes developer productivity with innovative design-to-code automation. Our up-coming platform release offers enhanced control, allowing developers to fine-tune automated code for more personalized and efficient project outcomes.
 author: Vasilis
 date: 14-06-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
@@ -16,7 +16,7 @@ Our initial release of the Bitloops Platform was a groundbreaking step in the fi
 This pilot version prioritised research into complex problem-solving, employing both advanced algorithms and AI-driven methods. The result was a system capable of generating a complete web page from a Figma design with minimal user input. This approach, while maximising productivity by reducing the time to just a few seconds or minutes, inherently required the system to make numerous decisions on behalf of the user.
 
 &nbsp;
-![Empowering Frontend Developers](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_empowering_developers.jpg)
+![Empowering Frontend Developers](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_empowering_frontend_developers.jpg)
 &nbsp;
 
 ### Empowering developers with enhanced control in code generation
@@ -29,7 +29,7 @@ Recognizing that there is often no "perfect" solution, the new version facilitat
 The enhanced control doesn't just stop at tweaking the code. We're empowering developers to invest more time in strategic tasks—those that require human insight and are crucial for the project's long-term evolution. 
 
 &nbsp;
-![Design-to-Code with more Control](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_more_control.jpg)
+![Design-to-Code with more Control](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_giving_developers_more_control.jpg)
 &nbsp;
 
 The Bitloops Platform aims to handle the routine coding tasks, thereby saving developers several hours each day. This shift not only boosts productivity but also enhances job satisfaction, as developers can focus on more engaging and impactful aspects of their projects.
