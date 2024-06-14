@@ -3,7 +3,7 @@ title: Over-engineered ToDo App using DDD, CQRS, Hexagonal Architecture & Event 
 description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
 author: Vasilis
 date: 05-04-2023
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/todo-app-resized-cropped.jpg
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/todo-app-resized-cropped.jpeg
 tags: ['Domain-Driven-Design', 'CQRS', 'Hexagonal Architecture', 'Software Patterns', 'clean architecture', 'Event Sourcing']
 ---
 
