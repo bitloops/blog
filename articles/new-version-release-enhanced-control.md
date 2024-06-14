@@ -1,6 +1,6 @@
 ---
-title: New Version Release - Empowering Developers with Enhanced Control
-description: After Bitloops' first release, developers provide feedback on how they want the design-to-code process to be, what features they would like to have access to and the level of control required to incorporate Bitloops into their development workflow. 
+title: New Version Release Announcement - Empowering Developers with Enhanced Control
+description: After Bitloops' first release, developers provided feedback on how they want the design-to-code process to be, what features they would like to have access to and the level of control required to incorporate Bitloops into their development workflow. 
 author: Vasilis
 date: 14-06-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_2_code_reimagined.jpg
