@@ -16,7 +16,7 @@ Our initial release of the Bitloops Platform was a groundbreaking step in the fi
 This pilot version prioritized research into complex problem-solving, employing both advanced algorithms and AI-driven methods. The result was a system capable of generating a complete web page from a Figma design with minimal user input. This approach, while maximizing productivity by reducing the time to just a few seconds or minutes, inherently required the system to make numerous decisions on behalf of the user.
 
 &nbsp;
-![Design-to-Code with Bitloops](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_empowering_developers.jpg)
+<img src="https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_empowering_developers.jpg" alt="Design-to-Code with Bitloops" style="width:50%;"/>
 &nbsp;
 
 ### Empowering developers with enhanced control in code generation
