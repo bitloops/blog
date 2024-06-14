@@ -3,7 +3,7 @@ title: New Version Announcement - Empowering Developers with Enhanced Control
 description: After Bitloops' first release, developers provided feedback on how they want the design-to-code process to be, what features they would like to have access to and the level of control required to incorporate Bitloops into their development workflow. 
 author: Vasilis
 date: 14-06-2024
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/todo-app-resized-cropped.jpeg
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design-to-code-reimagined.png
 tags: ['Design-to-Code', 'Frontend Development', 'Figma-to-Code', 'HTML', 'CSS', 'React']
 ---
 
