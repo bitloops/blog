@@ -159,7 +159,7 @@ Inside the <html>, the <head> section contains meta-information, links to CSS fi
 
 To construct the HTML markup effectively, it's essential to dissect the design into logical segments. 
 
-Employing semantic HTML5 elements such as <header>, <nav>, <section>, <article>, and <footer> plays a critical role in structuring the web page’s content with clarity and purpose. These elements not only contribute to the semantic richness of the document but also enhance accessibility and search engine optimization (SEO). 
+Employing semantic HTML5 elements such as **header, nav, section, article,** and **footer** plays a critical role in structuring the web page’s content with clarity and purpose. These elements not only contribute to the semantic richness of the document but also enhance accessibility and search engine optimization (SEO). 
 
 By incorporating descriptive tags, the content becomes more navigable for assistive technologies, and the relevance of the web page in search results is improved.
 
