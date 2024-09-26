@@ -72,8 +72,6 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 
 <pre> ```javascript // This is a JavaScript code snippet const add = (a, b) => { return a + b; }; console.log(add(5, 10)); ``` </pre>
 
-
-
    <div class="code-container">
     <span class="code-language">bash</span>
   </div>
