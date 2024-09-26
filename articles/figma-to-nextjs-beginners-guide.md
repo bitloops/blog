@@ -70,12 +70,14 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 1. **Set Up Your Next.js Project:**
    - Create a new project using:
 
+<pre> ```javascript // This is a JavaScript code snippet const add = (a, b) => { return a + b; }; console.log(add(5, 10)); ``` </pre>
+
+
+
    <div class="code-container">
-  <div class="code-header">
     <span class="code-language">bash</span>
   </div>
   <pre><code>
-# This is an example of a Bash command
      npx create-next-app my-nextjs-app
      cd my-nextjs-app
   </code></pre>
@@ -163,7 +165,7 @@ npm install styled-components
  - For each design component, create a matching React component. Use styled-components or CSS Modules to style your components based on the design tokens defined in Figma.
 
 **Example: Creating a Button Component:**
-```bash
+```javascript
 import styled from 'styled-components';
 
 const Button = styled.button`
