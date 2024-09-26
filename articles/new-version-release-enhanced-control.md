@@ -6,7 +6,7 @@ date: 14-06-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
 tags: ['Design-to-Code', 'Frontend Development', 'Figma-to-Code', 'HTML', 'CSS', 'React']
 ---
-**At Bitloops, our core mission is to accelerate the productivity of developers by providing innovative solutions**
+#### At Bitloops, our core mission is to accelerate the productivity of developers by providing innovative solutions
 
 Since our inception, we've been at the forefront of exploring and developing cutting-edge technology to assist developers in completing their tasks more efficiently.
 
