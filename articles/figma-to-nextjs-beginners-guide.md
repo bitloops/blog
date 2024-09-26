@@ -163,20 +163,19 @@ npm install styled-components
  - For each design component, create a matching React component. Use styled-components or CSS Modules to style your components based on the design tokens defined in Figma.
 
 **Example: Creating a Button Component:**
-```javascript
-const Button = styled.button`
-  background-color: ${(props) => (props.primary ? '#0070f3' : '#fff')};
-  color: ${(props) => (props.primary ? '#fff' : '#0070f3')};
-  border: ${(props) => (props.primary ? 'none' : '1px solid #0070f3')};
-  padding: 10px 20px;
-  cursor: pointer;
-  &:hover {
-    background-color: ${(props) => (props.primary ? '#005bb5' : '#e5e5e5')};
-  }
-`;
 
-export default function AppButton({ primary, children }) {
-  return <Button primary={primary}>{children}</Button>;
+```typescript
+   const Button = styled.button`
+      background-color: ${(props) => (props.primary ? '#0070f3' : '#fff')};
+      color: ${(props) => (props.primary ? '#fff' : '#0070f3')};
+      border: ${(props) => (props.primary ? 'none' : '1px solid #0070f3')};
+      padding: 10px 20px;
+      cursor: pointer;
+      &:hover {
+         background-color: ${(props) => (props.primary ? '#005bb5' : '#e5e5e5')};
+      },;
+   export default function AppButton({ primary, children }) {
+   return <Button primary={primary}>{children}</Button>;
 }
 ```
 
