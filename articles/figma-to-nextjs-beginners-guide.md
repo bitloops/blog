@@ -164,8 +164,6 @@ npm install styled-components
 
 **Example: Creating a Button Component:**
 ```javascript
-   import 'highlight.js/styles/github-dark.css';
-
 const Button = styled.button`
   background-color: ${(props) => (props.primary ? '#0070f3' : '#fff')};
   color: ${(props) => (props.primary ? '#fff' : '#0070f3')};
