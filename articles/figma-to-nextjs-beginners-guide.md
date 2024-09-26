@@ -69,10 +69,18 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 #### Actionable Steps for Developers:
 1. **Set Up Your Next.js Project:**
    - Create a new project using:
-     ```bash
+
+   <div class="code-container">
+  <div class="code-header">
+    <span class="code-language">bash</span>
+  </div>
+  <pre><code>
+# This is an example of a Bash command
      npx create-next-app my-nextjs-app
      cd my-nextjs-app
-     ```
+  </code></pre>
+</div>
+
    - This command sets up the basic structure, including `pages`, `styles`, and `public` directories.
 
 2. **Implement SSR and SSG:**
