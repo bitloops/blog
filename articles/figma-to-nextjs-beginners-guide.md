@@ -15,16 +15,6 @@ That’s where our "Beginner’s Guide to Figma to Next.js Conversion" comes in,
 
 Figma allows designers to bring their visions to life with intuitive, pixel-perfect precision. Next.js, on the other hand, takes these designs to the next level with lightning-fast performance and SEO-friendly features, ensuring your projects don’t just look amazing but also perform exceptionally on the web.
 
-
-<pre class="language-javascript" >
-    <code>
-        function getFullName (user) {
-            const fullName = user.firstName + user.lastName;
-            return fullName;
-        }
-    </code>
-</pre>
-
 &nbsp;
 ![Converting Designs into Code](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Converting_Designs_into_Code.jpg)
 &nbsp;
@@ -80,16 +70,12 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 1. **Set Up Your Next.js Project:**
    - Create a new project using:
 
-<pre> ```javascript // This is a JavaScript code snippet const add = (a, b) => { return a + b; }; console.log(add(5, 10)); ``` </pre>
-
-   <div class="code-container">
-    <span class="code-language">bash</span>
-  </div>
-  <pre><code>
+<pre class="language-bash" >
+    <code>
      npx create-next-app my-nextjs-app
      cd my-nextjs-app
-  </code></pre>
-</div>
+    </code>
+</pre>
 
    - This command sets up the basic structure, including `pages`, `styles`, and `public` directories.
 
@@ -102,10 +88,14 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 
 4. **Code Splitting:**
    - Keep an eye on bundle sizes by using dynamic imports:
-     ```javascript
-     import dynamic from 'next/dynamic';
-     const DynamicComponent = dynamic(() => import('../components/MyComponent'));
-     ```
+
+      <pre class="language-javascript" >
+         <code>
+            import dynamic from 'next/dynamic';
+            const DynamicComponent = dynamic(() => import('../components/MyComponent'));
+         </code>
+      </pre>
+
    - This will load the component only when needed, reducing the initial load time.
 
 ---
@@ -138,9 +128,13 @@ When designing in Figma with the intent to convert to code, think in terms of re
 To get started, create a new Next.js project and set up your file structure based on the Figma design. Use the following steps:
 
 1. **Initialize Your Project:**
-   ```bash
-   npx create-next-app my-nextjs-project
-   cd my-nextjs-project
+
+      <pre class="language-bash" >
+         <code>
+            npx create-next-app my-nextjs-project
+            cd my-nextjs-project
+         </code>
+      </pre>
 
 
 2. **Understand the Project Structure:**
@@ -158,9 +152,11 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 - For styling, you might want to use styled-components or SASS:
 
-```bash
-npm install styled-components
-```
+      <pre class="language-bash" >
+         <code>
+            npm install styled-components
+         </code>
+      </pre>
 
 - For state management, consider installing redux or zustand as needed.
 
@@ -174,20 +170,26 @@ npm install styled-components
 
 **Example: Creating a Button Component:**
 
-```typescript
-   const Button = styled.button`
-      background-color: ${(props) => (props.primary ? '#0070f3' : '#fff')};
-      color: ${(props) => (props.primary ? '#fff' : '#0070f3')};
-      border: ${(props) => (props.primary ? 'none' : '1px solid #0070f3')};
-      padding: 10px 20px;
-      cursor: pointer;
-      &:hover {
-         background-color: ${(props) => (props.primary ? '#005bb5' : '#e5e5e5')};
-      },;
-   export default function AppButton({ primary, children }) {
-   return <Button primary={primary}>{children}</Button>;
-}
-```
+   <pre class="language-typescript" >
+         <code>
+            import styled from 'styled-components';
+
+            const Button = styled.button`
+               background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
+               color: ${(props) => props.primary ? '#fff' : '#0070f3'};
+               border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
+               padding: 10px 20px;
+               cursor: pointer;
+               &:hover {
+                  background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
+               }
+            `;
+
+            export default function AppButton({ primary, children }) {
+               return <Button primary={primary}>{children}</Button>;
+            }
+         </code>
+      </pre>
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
@@ -202,26 +204,29 @@ Decide between CSS Modules, styled-components, or SASS. For small projects, CSS 
 
 2. **Global Styles:**
 Define global styles in a global CSS file or create a `GlobalStyle` component using styled-components:
-```bash
-import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-  }
-`;
+   <pre class="language-javascript" >
+         <code>
+            import { createGlobalStyle } from 'styled-components';
 
-export default function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <GlobalStyle />
-      <Component {...pageProps} />
-    </>
-  );
-}
-```
+            const GlobalStyle = createGlobalStyle`
+            body {
+               margin: 0;
+               font-family: 'Arial', sans-serif;
+               background-color: #f0f0f0;
+            }
+            `;
+
+            export default function MyApp({ Component, pageProps }) {
+            return (
+               <>
+                  <GlobalStyle />
+                  <Component {...pageProps} />
+               </>
+            );
+            }
+         </code>
+      </pre>
 
 3. **Component Styles:**
 Use styled-components or CSS Modules for component-specific styles, ensuring they are modular and easy to maintain.
@@ -234,21 +239,24 @@ Use styled-components or CSS Modules for component-specific styles, ensuring the
 
 1. **Use the `Head` Component:**
 Add meta tags and SEO information in each page:
-```bash
-import Head from 'next/head';
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>My Awesome Site</title>
-        <meta name="description" content="This is an awesome site built with Next.js" />
-      </Head>
-      {/* Rest of your page content */}
-    </div>
-  );
-}
-```
+   <pre class="language-javascript" >
+         <code>
+            import Head from 'next/head';
+            export default function Home() {
+            return (
+               <div>
+                  <Head>
+                  <title>My Awesome Site</title>
+                  <meta name="description" content="This is an awesome site built with Next.js" />
+                  </Head>
+                  {/* Rest of your page content */}
+               </div>
+            );
+            }
+         </code>
+      </pre>
+
 
 2. **Use Semantic HTML:**
 Use semantic elements like `<header>`, `<main>`, `<article>`, and `<footer>` to improve accessibility and SEO.
@@ -258,11 +266,13 @@ Use JSON-LD for structured data to provide search engines with better context ab
 
 4. **Optimize Images:**
 Use the Next.js `Image` component for automatic image optimization:
-```bash
-import Image from 'next/image';
 
-<Image src="/image.jpg" alt="description" width={500} height={300} />
-```
+   <pre class="language-javascript" >
+         <code>
+            import Image from 'next/image';
+            <Image src="/image.jpg" alt="description" width={500} height={300} />
+         </code>
+      </pre>
 
 ### Performance Tuning
 
