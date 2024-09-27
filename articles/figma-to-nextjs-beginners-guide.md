@@ -91,8 +91,8 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 
       <pre class="language-javascript" >
          <code>
-            import dynamic from 'next/dynamic';
-            const DynamicComponent = dynamic(() => import('../components/MyComponent'));
+         import dynamic from 'next/dynamic';
+         const DynamicComponent = dynamic(() => import('../components/MyComponent'));
          </code>
       </pre>
 
@@ -131,8 +131,8 @@ To get started, create a new Next.js project and set up your file structure base
 
       <pre class="language-bash" >
          <code>
-            npx create-next-app my-nextjs-project
-            cd my-nextjs-project
+         npx create-next-app my-nextjs-project
+         cd my-nextjs-project
          </code>
       </pre>
 
@@ -154,7 +154,7 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
       <pre class="language-bash" >
          <code>
-            npm install styled-components
+         npm install styled-components
          </code>
       </pre>
 
@@ -170,7 +170,7 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-   <pre class="language-typescript" >
+   <pre class="language-javascript" >
          <code>
             import styled from 'styled-components';
 
@@ -207,24 +207,24 @@ Define global styles in a global CSS file or create a `GlobalStyle` component us
 
    <pre class="language-javascript" >
          <code>
-            import { createGlobalStyle } from 'styled-components';
+         import { createGlobalStyle } from 'styled-components';
 
-            const GlobalStyle = createGlobalStyle`
-            body {
-               margin: 0;
-               font-family: 'Arial', sans-serif;
-               background-color: #f0f0f0;
-            }
-            `;
+         const GlobalStyle = createGlobalStyle`
+         body {
+            margin: 0;               
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+         }
+         `;
 
-            export default function MyApp({ Component, pageProps }) {
-            return (
-               <>
-                  <GlobalStyle />
-                  <Component {...pageProps} />
-               </>
-            );
-            }
+         export default function MyApp({ Component, pageProps }) {
+         return (
+            <>                  
+            <GlobalStyle />
+            <Component {...pageProps} />
+            </>
+         );
+         }
          </code>
       </pre>
 
@@ -242,18 +242,18 @@ Add meta tags and SEO information in each page:
 
    <pre class="language-javascript" >
          <code>
-            import Head from 'next/head';
-            export default function Home() {
-            return (
-               <div>
-                  <Head>
-                  <title>My Awesome Site</title>
-                  <meta name="description" content="This is an awesome site built with Next.js" />
-                  </Head>
-                  {/* Rest of your page content */}
-               </div>
-            );
-            }
+         import Head from 'next/head';
+         export default function Home() {
+         return (
+            <div>                  
+               <Head>
+               <title>My Awesome Site</title>
+               <meta name="description" content="Design-to-Code with Bitloops" />
+               </Head>
+            {/* Rest of your page content */}               
+            </div>
+         );
+         }
          </code>
       </pre>
 
@@ -269,8 +269,8 @@ Use the Next.js `Image` component for automatic image optimization:
 
    <pre class="language-javascript" >
          <code>
-            import Image from 'next/image';
-            <Image src="/image.jpg" alt="description" width={500} height={300} />
+         import Image from 'next/image';
+         <Image src="/image.jpg" alt="description" width={500} height={300} />
          </code>
       </pre>
 
