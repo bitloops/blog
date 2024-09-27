@@ -70,12 +70,10 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 1. **Set Up Your Next.js Project:**
    - Create a new project using:
 
-<pre class="language-bash" >
-    <code>
-     npx create-next-app my-nextjs-app
-     cd my-nextjs-app
-    </code>
-</pre>
+```bash
+   npx create-next-app my-nextjs-app
+   cd my-nextjs-app
+```
 
    - This command sets up the basic structure, including `pages`, `styles`, and `public` directories.
 
@@ -89,12 +87,10 @@ But Next.js goes beyond SEO. It’s designed for performance, automatically spli
 4. **Code Splitting:**
    - Keep an eye on bundle sizes by using dynamic imports:
 
-      <pre class="language-javascript" >
-         <code>
-         import dynamic from 'next/dynamic';
-         const DynamicComponent = dynamic(() => import('../components/MyComponent'));
-         </code>
-      </pre>
+```javascript
+   import dynamic from 'next/dynamic';
+   const DynamicComponent = dynamic(() => import('../components/MyComponent'));
+```
 
    - This will load the component only when needed, reducing the initial load time.
 
@@ -129,12 +125,10 @@ To get started, create a new Next.js project and set up your file structure base
 
 1. **Initialize Your Project:**
 
-      <pre class="language-bash" >
-         <code>
-         npx create-next-app my-nextjs-project
-         cd my-nextjs-project
-         </code>
-      </pre>
+```bash
+   npx create-next-app my-nextjs-project
+   cd my-nextjs-project
+```
 
 
 2. **Understand the Project Structure:**
@@ -152,11 +146,9 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 - For styling, you might want to use styled-components or SASS:
 
-      <pre class="language-bash" >
-         <code>
-         npm install styled-components
-         </code>
-      </pre>
+```bash
+   npm install styled-components
+```
 
 - For state management, consider installing redux or zustand as needed.
 
@@ -170,26 +162,24 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-   <pre class="language-javascript" >
-         <code>
-            import styled from 'styled-components';
+```javascript
+   import styled from 'styled-components';
 
-            const Button = styled.button`
-               background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
-               color: ${(props) => props.primary ? '#fff' : '#0070f3'};
-               border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-               padding: 10px 20px;
-               cursor: pointer;
-               &:hover {
-                  background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-               }
-            `;
+   const Button = styled.button`
+      background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
+      color: ${(props) => props.primary ? '#fff' : '#0070f3'};
+      border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
+      padding: 10px 20px;
+      cursor: pointer;
+      &:hover {
+         background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
+      }
+   `;
 
-            export default function AppButton({ primary, children }) {
-               return <Button primary={primary}>{children}</Button>;
-            }
-         </code>
-      </pre>
+   export default function AppButton({ primary, children }) {
+      return <Button primary={primary}>{children}</Button>;
+   }
+```
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
@@ -205,28 +195,26 @@ Decide between CSS Modules, styled-components, or SASS. For small projects, CSS 
 2. **Global Styles:**
 Define global styles in a global CSS file or create a `GlobalStyle` component using styled-components:
 
-   <pre class="language-javascript" >
-         <code>
-         import { createGlobalStyle } from 'styled-components';
+```javascript
+   import { createGlobalStyle } from 'styled-components';
 
-         const GlobalStyle = createGlobalStyle`
-         body {
-            margin: 0;               
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-         }
-         `;
+   const GlobalStyle = createGlobalStyle`
+   body {
+      margin: 0;               
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+   }
+   `;
 
-         export default function MyApp({ Component, pageProps }) {
-         return (
-            <>                  
-            <GlobalStyle />
-            <Component {...pageProps} />
-            </>
-         );
-         }
-         </code>
-      </pre>
+   export default function MyApp({ Component, pageProps }) {
+   return (
+      <>                  
+      <GlobalStyle />
+      <Component {...pageProps} />
+      </>
+   );
+   }
+```
 
 3. **Component Styles:**
 Use styled-components or CSS Modules for component-specific styles, ensuring they are modular and easy to maintain.
@@ -241,19 +229,19 @@ Use styled-components or CSS Modules for component-specific styles, ensuring the
 Add meta tags and SEO information in each page:
 
 ```javascript
-         import Head from 'next/head';
-         export default function Home() {
-         return (
-            <div>                  
-               <Head>
-               <title>My Awesome Site</title>
-               <meta name="description" content=
-               "Design-to-Code with Bitloops" />
-               </Head>
-            {/* Rest of your page content */}               
-            </div>
-         );
-         }
+   import Head from 'next/head';
+   export default function Home() {
+   return (
+      <div>                  
+         <Head>
+         <title>My Awesome Site</title>
+         <meta name="description" 
+               content="Design-to-Code with Bitloops" />
+         </Head>
+      {/* Rest of your page content */}               
+      </div>
+   );
+   }
 ```
 
 2. **Use Semantic HTML:**
@@ -265,12 +253,10 @@ Use JSON-LD for structured data to provide search engines with better context ab
 4. **Optimize Images:**
 Use the Next.js `Image` component for automatic image optimization:
 
-   <pre class="language-javascript" >
-         <code>
-         import Image from 'next/image';
-         <Image src="/image.jpg" alt="description" width={500} height={300} />
-         </code>
-      </pre>
+```javascript
+   import Image from 'next/image';
+   <Image src="/image.jpg" alt="description" width={500} height={300} />
+```
 
 ### Performance Tuning
 
