@@ -162,24 +162,27 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-```jsx
-   import styled from 'styled-components';
+<pre class="language-javascript">
+    <code>
+         import styled from 'styled-components';
 
-   const Button = styled.button`
-      background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
-      color: ${(props) => props.primary ? '#fff' : '#0070f3'};
-      border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-      padding: 10px 20px;
-      cursor: pointer;
-      &:hover {
-         background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-      }
-   `;
+         const Button = styled.button`
+            background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
+            color: ${(props) => props.primary ? '#fff' : '#0070f3'};
+            border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
+            padding: 10px 20px;
+            cursor: pointer;
+               &:hover {
+            background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
+             }  
+         `;
 
    export default function AppButton({ primary, children }) {
       return <Button primary={primary}>{children}</Button>;
    }
-```
+    </code>
+</pre>
+
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
@@ -195,7 +198,7 @@ Decide between CSS Modules, styled-components, or SASS. For small projects, CSS 
 2. **Global Styles:**
 Define global styles in a global CSS file or create a `GlobalStyle` component using styled-components:
 
-```javascript
+```jsx
    import { createGlobalStyle } from 'styled-components';
 
    const GlobalStyle = createGlobalStyle`
