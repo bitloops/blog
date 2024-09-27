@@ -240,8 +240,7 @@ Use styled-components or CSS Modules for component-specific styles, ensuring the
 1. **Use the `Head` Component:**
 Add meta tags and SEO information in each page:
 
-   <pre class="language-javascript" >
-         <code>
+```javascript
          import Head from 'next/head';
          export default function Home() {
          return (
@@ -254,9 +253,7 @@ Add meta tags and SEO information in each page:
             </div>
          );
          }
-         </code>
-      </pre>
-
+```
 
 2. **Use Semantic HTML:**
 Use semantic elements like `<header>`, `<main>`, `<article>`, and `<footer>` to improve accessibility and SEO.
