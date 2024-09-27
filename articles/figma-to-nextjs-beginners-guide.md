@@ -15,6 +15,16 @@ That’s where our "Beginner’s Guide to Figma to Next.js Conversion" comes in,
 
 Figma allows designers to bring their visions to life with intuitive, pixel-perfect precision. Next.js, on the other hand, takes these designs to the next level with lightning-fast performance and SEO-friendly features, ensuring your projects don’t just look amazing but also perform exceptionally on the web.
 
+
+<pre class="language-javascript" >
+    <code>
+        function getFullName (user) {
+            const fullName = user.firstName + user.lastName;
+            return fullName;
+        }
+    </code>
+</pre>
+
 &nbsp;
 ![Converting Designs into Code](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Converting_Designs_into_Code.jpg)
 &nbsp;
