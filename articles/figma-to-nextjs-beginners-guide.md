@@ -247,7 +247,8 @@ Add meta tags and SEO information in each page:
             <div>                  
                <Head>
                <title>My Awesome Site</title>
-               <meta name="description" content="Design-to-Code with Bitloops" />
+               <meta name="description" content=
+               "Design-to-Code with Bitloops" />
                </Head>
             {/* Rest of your page content */}               
             </div>
