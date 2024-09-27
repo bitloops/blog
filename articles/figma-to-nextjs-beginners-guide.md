@@ -162,7 +162,7 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-```javascript
+```jsx
    import styled from 'styled-components';
 
    const Button = styled.button`
