@@ -157,67 +157,29 @@ Set up custom configurations, such as image domains, redirects, or environment v
 1. **Break Down Figma Design:**
  - Analyze the design and list out all unique components. Prioritize building atomic components first (e.g., buttons, inputs).
 
-2. **Create React Components:**
+2. **Create React Component:**
  - For each design component, create a matching React component. Use styled-components or CSS Modules to style your components based on the design tokens defined in Figma.
 
 **Example: Creating a Button Component:**
 
 ```Javascript
-         import styled from 'styled-components';
+   import styled from 'styled-components';
 
-         const Button = styled.button`
-            background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
-            color: ${(props) => props.primary ? '#fff' : '#0070f3'};
-            border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-            padding: 10px 20px;
-            cursor: pointer;
-               &:hover {
-            background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-             }  
-         `;
+   const Button = styled.button\`
+      background-color: \${(props) => props.primary ? '#0070f3' : '#fff'};
+      color: \${(props) => props.primary ? '#fff' : '#0070f3'};
+      border: \${(props) => props.primary ? 'none' : '1px solid #0070f3'};
+      padding: 10px 20px;
+      cursor: pointer;
 
-   export default function AppButton({ primary, children }) {
-      return <Button primary={primary}>{children}</Button>;
-   }
-```
+      &:hover {
+         background-color: \${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
+      }
+      \`;
 
-```jsx
-         import styled from 'styled-components';
-
-         const Button = styled.button`
-            background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
-            color: ${(props) => props.primary ? '#fff' : '#0070f3'};
-            border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-            padding: 10px 20px;
-            cursor: pointer;
-               &:hover {
-            background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-             }  
-         `;
-
-   export default function AppButton({ primary, children }) {
-      return <Button primary={primary}>{children}</Button>;
-   }
-```
-
-
-```Typescript
-         import styled from 'styled-components';
-
-         const Button = styled.button`
-            background-color: ${(props) => props.primary ? '#0070f3' : '#fff'};
-            color: ${(props) => props.primary ? '#fff' : '#0070f3'};
-            border: ${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-            padding: 10px 20px;
-            cursor: pointer;
-               &:hover {
-            background-color: ${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-             }  
-         `;
-
-   export default function AppButton({ primary, children }) {
-      return <Button primary={primary}>{children}</Button>;
-   }
+      export default function AppButton(\{ primary, children \}) {
+         return <Button primary=\{primary\}>\{children\}</Button>;
+      }
 ```
 
 3. **Integrate Components into Pages:**
