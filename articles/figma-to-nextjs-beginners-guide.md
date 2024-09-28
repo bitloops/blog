@@ -162,7 +162,6 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-```html
 <pre class="language-javascript">
 <code>
 import styled from 'styled-components';
@@ -184,7 +183,6 @@ export default function AppButton(\{ primary, children \}) {
 }
 </code>
 </pre>
-```
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
