@@ -162,7 +162,9 @@ Set up custom configurations, such as image domains, redirects, or environment v
 
 **Example: Creating a Button Component:**
 
-```javascript
+```html
+<pre class="language-javascript">
+<code>
 import styled from 'styled-components';
 
 const Button = styled.button\`
@@ -178,29 +180,10 @@ const Button = styled.button\`
 \`;
 
 export default function AppButton(\{ primary, children \}) {
-  return <Button primary=\{primary\}>\{children\}</Button>;
+  return &lt;Button primary=\{primary\}&gt;\{children\}&lt;/Button&gt;;
 }
-```
-
-```Javascript
-   import styled from 'styled-components';
-
-   const Button = styled.button\`
-      background-color: \${(props) => props.primary ? '#0070f3' : '#fff'};
-      color: \${(props) => props.primary ? '#fff' : '#0070f3'};
-      border: \${(props) => props.primary ? 'none' : '1px solid #0070f3'};
-      padding: 10px 20px;
-      cursor: pointer;
-
-      &:hover {
-         background-color: \${(props) => props.primary ? '#005bb5' : '#e5e5e5'};
-      }
-      \`;
-
-      export default function AppButton(\{ primary, children \}) {
-         return <Button primary=\{primary\}>\{children\}</Button>;
-      }
-```
+</code>
+</pre>
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
