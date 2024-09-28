@@ -184,6 +184,7 @@ export default function AppButton(\{ primary, children \}) {
 }
 </code>
 </pre>
+```
 
 3. **Integrate Components into Pages:**
    - Once components are built, integrate them into your page components. Maintain a clean file structure and avoid code duplication.
