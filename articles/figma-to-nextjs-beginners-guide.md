@@ -4,7 +4,7 @@ description: Step-by-step guide on how to convert figma designs into a Next.js p
 author: Vasilis
 date: 12-02-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Figma-to-next.jpg
-tags: ['Frontend Engineeering', 'Software Development', 'Figma-to-Next.js', 'Design-to-Code','Frontend Co-Pilot','Frontend Engineeering', 'Next.js Tutorial']
+tags: ['Software Development', 'Figma-to-Next.js', 'Design-to-Code','Frontend Co-Pilot','Frontend Engineeering', 'Next.js Tutorial']
 ---
 
 # Convert Designs into Next.js
