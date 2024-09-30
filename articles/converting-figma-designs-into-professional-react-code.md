@@ -91,10 +91,10 @@ Transforming designs into code involves a series of intricate, often repetitive 
 ![Fullstack Developer Programming Languages](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
 <div style="text-align: center;">Fullstack Developer Programming Languages, source: pixabay</div>
 &nbsp;
+&nbsp;
 
-<div class="center">
-Fullstack Developer Programming Languages, source: pixabay
-</div>
+<div class="center">Fullstack Developer Programming Languages, source: pixabay</div>
+
 
 ### Resource Allocation and Prioritization:
 **Issue:** Limited resources and conflicting priorities can lead to bottlenecks, where critical design-to-code tasks are delayed.
