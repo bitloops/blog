@@ -56,12 +56,6 @@ Transforming designs into code involves a series of intricate, often repetitive 
 <div style="text-align: center;">File version history, source: figma</div>
 &nbsp;
 
-
-![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/file-version-history.png)
-<div class="center">
-File version history, source: figma
-</div>
-
 ### Scaling Design Consistency:
 **Issue:** As projects grow, maintaining design consistency across a wide range of components and applications becomes increasingly difficult.
 
