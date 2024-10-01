@@ -4,9 +4,8 @@ description: Identifying sections of your website or web app is normally very in
 author: Antonis
 date: 12-02-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/div-soup.jpg
-tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React', 'Section Identification', 'Component-based coding']
+tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React', 'Section Identification', 'React Components']
 ---
-## Introduction
 
 In the ever-changing world of web development the process of converting web designs into functional code is more than just a translation; it requires artistic and scientific skills. 
 

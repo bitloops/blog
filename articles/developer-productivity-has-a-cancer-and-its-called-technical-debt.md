@@ -1,5 +1,5 @@
 ---
-title: Developer Productivity has a cancer and its called technical debt
+title: Developer productivity has a cancer and its called technical debt!
 description: Developers want to be productive, solve problems and see their hard work come to fruition. Technical debt reduces productivity greatly when unmanaged!
 author: Antonis
 date: 03-12-2022
@@ -7,9 +7,9 @@ image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/code.
 tags: ['Technical Debt', 'Developer Productivity', 'Clean Architecture', 'Clean Code']
 ---
 
-## Developer Productivity has a cancer and its called  technical debt
+We’ve all heard the term technical debt, but most don’t really understand it. The concept was created to explain all of the extra development work that is required when software is badly designed and implemented.
 
-We’ve all heard the term technical debt, but most don’t really understand it. The concept was created to explain all of the extra development work that is required when software is badly designed and implemented., In summary, every time a developer builds redundant, poorly designed or useless code, that developer is creating technical debt. The most common types of technical debt are:
+In summary, every time a developer builds redundant, poorly designed or useless code, that developer is creating technical debt. The most common types of technical debt are:
 
 - Architecture debt is due to poorly designed software or architecture that negatively affects future maintenance
 - Design and code debt is due to poorly designed code or design violations that lead to frequent maintenance activities in the future
@@ -30,10 +30,9 @@ And do you know why the term debt is used? Well for 2 reasons:
 2. **There is interest and it compounds:** just like financial debt, the interest accumulates on top of your debt, so it just gets larger and larger and larger, and consequently gets harder and harder to pay back. In fact, the longer it takes to fix technical debt, the more entropy (and costly) new development becomes to a point where a company can go technically bankrupt
 
 
-'''
+'''bash
 Like financial debt, technical debt can lead to technical bankruptcy, and it actually happens more often than we realize. Companies accumulate so much technical debt that it becomes almost impossible to manage the code base, reaching a point of very high software development entropy. In fact, the quality of the code and software is so poor that usability issues start appearing, and the team spends all of its time fixing bugs, rather than working on new features. Often, once the product has reached this point, the business itself is unable to reorganize and develop a new product from scratch. 
 '''
- 
 
 It's important to note though that developers are not creating technical debt on purpose. There are generally 2 mains reasons for technical debt:
 1. Inexperience

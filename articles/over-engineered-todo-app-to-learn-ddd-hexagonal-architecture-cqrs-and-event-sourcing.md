@@ -1,10 +1,10 @@
 ---
-title: Over-engineered ToDo App using DDD, CQRS, Hexagonal Architecture & Event Sourcing
+title: Over-engineered ToDo App using DDD, CQRS, Hexagonal & Event Sourcing
 description: Designing, building and managing large and complex software does not have to be so hard. We believe it is possible to radically transform how software is developed by incorporating best-practices, design principles and patterns into the software development process. 
 author: Vasilis
 date: 05-04-2023
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/todo-app-resized-cropped.jpeg
-tags: ['Domain-Driven-Design', 'CQRS', 'Hexagonal Architecture', 'Software Patterns', 'clean architecture', 'Event Sourcing']
+tags: ['Domain-Driven-Design', 'CQRS', 'Hexagonal Architecture', 'Software Patterns', 'Clean Architecture', 'Event Sourcing']
 ---
 
 ## Clean, SOLID, DDD tech stack for ToDo App
@@ -49,12 +49,14 @@ This process not only helps you understand the domain better, but it also helps 
 
 For this app, we created 3 bounded contexts:
 
-1. IAM <br>
+1. IAM
   a. User Login process
   b. User Registration process
-1. Todo <br>
+  
+2. Todo
   a. Todo Process
-1. Marketing <br>
+
+3. Marketing
   a.Onboarding Process
 
 Each of these bounded contexts are separate and should be treated as such.

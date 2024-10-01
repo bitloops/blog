@@ -1,26 +1,31 @@
 ---
-title: Bitloops - Backend Development with high-productivity language
+title: Backend Development with high-productivity language
 description: The future of backend development is with a high-productivity, 4th generation programming language that boosts developer velocity throughout entire lifecycle.
 author: Sergio
 date: 04-12-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/paints.jpg
-tags: ['Backend Development', 'Bitloops Language', 'Developer Productivity', 'Future of Software', 'developer velocity']
+tags: ['Backend Development', 'Bitloops Language', 'Developer Productivity', 'Future of Software', 'Developer Velocity','Software Engineering']
 --- 
 
-## The future of Backend Development is written with high-productivity, fourth generation programming language
+**The future of Backend Development is written with high-productivity, fourth generation programming language!**
 
 Let’s be honest, it sucks to have to execute the same mundane tasks when developing the backend of an app, SaaS or website, right?
-That’s why we need a high-productivity programming language that reduces the time spent on boiler-plate code, that allows developers to focus on the core aspects of the application, and is flexible enough to not limit creativity. No, we’re not talking about Low Code or 
 
-No-code platforms, which have their space and need in the market, but we’re talking about a model-driven, service-oriented programming language that will tenfold developer productivity and significantly reduce technical debt as applications grow. 
+That’s why we need a high-productivity programming language that reduces the time spent on boiler-plate code, that allows developers to focus on the core aspects of the application, and is flexible enough to not limit creativity. 
+
+No, we’re not talking about Low Code or No-code platforms, which have their space and need in the market, but we’re talking about a model-driven, service-oriented programming language that will tenfold developer productivity and significantly reduce technical debt as applications grow. 
 
 ## Technical debt is viewed as inevitable 
 
-The vast majority of tech companies have significant product and technology issues due to technical debt, sometimes even leading to technical bankruptcy. The speed at which products need to adapt and new features introduced leads to poor software development practices, limited refactoring and out-dated documentation. As a consequence, tech companies become slower and slower at releasing new features or updating their systems because the application architecture and setup doesn’t allow for fast iterations. In fact, most of the time there are large chunks of code or microservices that nobody knows exactly how they work or what they’re dependent on.  
+The vast majority of tech companies have significant product and technology issues due to technical debt, sometimes even leading to technical bankruptcy. The speed at which products need to adapt and new features introduced leads to poor software development practices, limited refactoring and out-dated documentation. 
+
+As a consequence, tech companies become slower and slower at releasing new features or updating their systems because the application architecture and setup doesn’t allow for fast iterations. In fact, most of the time there are large chunks of code or microservices that nobody knows exactly how they work or what they’re dependent on.  
 
 Unfortunately, many times this issue is ignored or simply accepted as inevitable, which is leading to a need for more and more software engineering resources, which are particularly precious today. Engineers are hogged up fixing old or broken code instead of thinking about innovation, which can be fatal in our largely competitive digital world.
 
-Therefore, it is paramount that we offer developers a better solution - something that will allow developers to maintain their productivity levels even when products become large and complex. New developers should be onboarded in days, not months! This improved productivity will inevitably leave time and resources that can be concentrated into a new, innovative product, freeing developer teams from performing redundant tasks that don’t bring anything new to the market. In turn, there will be more game-changing ideas floating around and a much quicker path to new developments in technology.
+Therefore, it is paramount that we offer developers a better solution - something that will allow developers to maintain their productivity levels even when products become large and complex. New developers should be onboarded in days, not months! 
+
+This improved productivity will inevitably leave time and resources that can be concentrated into a new, innovative product, freeing developer teams from performing redundant tasks that don’t bring anything new to the market. In turn, there will be more game-changing ideas floating around and a much quicker path to new developments in technology.
 
 ## Low Code and No-Code are not the solution
 

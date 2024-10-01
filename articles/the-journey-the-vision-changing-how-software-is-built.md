@@ -4,14 +4,16 @@ description: How often have your product ideas been shelved due to lack of resou
 author: Sergio
 date: 29-11-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/luggage.jpg
-tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity']
+tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity','Backend Development','Software Development']
 ---
 
 ## The Pain
 
 Software is eating the world - Marc Andreessen (famous VC investor) said this 10 years ago but it's even more true today! As every company continues to become a technology company inside — regardless of product or service — developers are getting more of a say, but are increasingly frustrated with how software is built and managed by organizations.
 
-And indeed, this is precisely what we (Vasilis and myself) experienced first-hand when working at our previous companies. The day-to-day management of new feature development, iterations and testing was cumbersome, slow and required alignment between many stakeholders. Despite working in relatively young organizations, the complexity of managing several large applications working together led to an unstructured and difficult to manage system. Moreover, incoherent and diverse opinions from stakeholders was generating technical debt, boring work and ultimately churn of tech and non-tech team members. 
+And indeed, this is precisely what we (Vasilis and myself) experienced first-hand when working at our previous companies. The day-to-day management of new feature development, iterations and testing was cumbersome, slow and required alignment between many stakeholders. 
+
+Despite working in relatively young organizations, the complexity of managing several large applications working together led to an unstructured and difficult to manage system. Moreover, incoherent and diverse opinions from stakeholders was generating technical debt, boring work and ultimately churn of tech and non-tech team members. 
 
 ## Software is a living organism
 
@@ -39,9 +41,13 @@ Most developer tools are about how to make it easier to write new code in a vacu
 ## The Vision
 
 Bitloops has been developed to solve these very issues, which are the issues we were facing in our previous companies, and the same issues that have been reinforced through discussions with many other engineers across several companies. 
-All Software Engineers want nice clean and well-designed code so they can ship new features or products in a timely manager. However, given the pressure to meet spring goals and the lack of experience, most developers compromise on code quality to meet those deadlines, which leads to poor-looking code, unstructured designs and loss of productivity in the medium to long term. 
+All Software Engineers want nice clean and well-designed code so they can ship new features or products in a timely manager. 
 
-The [Bitloops Language](https://bitloops.com/bitloops-language) has been designed by taking into consideration the best practices and methodologies in software design, as well as taking into account the basic principles of software development and lifecycle such as deployment, security and integration with 3rd party services. The platform is able to guide developers in developing well-structured code and high-quality systems, without having to compromise on speed, and is based on 4 core principles:
+However, given the pressure to meet spring goals and the lack of experience, most developers compromise on code quality to meet those deadlines, which leads to poor-looking code, unstructured designs and loss of productivity in the medium to long term. 
+
+The [Bitloops Language](https://bitloops.com/bitloops-language) has been designed by taking into consideration the best practices and methodologies in software design, as well as taking into account the **basic principles of software development** and lifecycle such as deployment, security and integration with 3rd party services. 
+
+The platform is able to guide developers in developing well-structured code and high-quality systems, without having to compromise on speed, and is based on 4 core principles:
 
 1. **Developer first:** Bitloops has been designed around developers’ thinking, coding practices and day-to-day activities. Therefore, Bitloops enables developers to be far more productive and faster 
 

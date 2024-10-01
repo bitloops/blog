@@ -4,7 +4,7 @@ description: Designing, building and managing large and complex software does no
 author: Vasilis
 date: 30-11-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
-tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'software development platform']
+tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'Technical Debt','Software Design']
 ---
 ## Bitloops, because we are believers!
 
