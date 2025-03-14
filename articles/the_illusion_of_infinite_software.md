@@ -3,7 +3,7 @@ title: The Illusion of Infinite Software - Why AI Won’t Replace Great Engineer
 description: AI is reshaping software development, but does it signal the end of software engineering? This article explores the reality behind AI-generated code, its limitations, and why human expertise in product design, UX, and scalability remains crucial for building high-quality software.
 author: Sergio
 date: 14-03-2025
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Maze_of_AI_Code.jpeg
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Illusion%20of%20infinite%20software/the_ai_development_maze.jpeg
 tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation','AI and Human Collaboration','AI Limitations']
 ---
 
@@ -18,6 +18,10 @@ Just as filmmaking didn’t disappear when everyone got a camera, software engin
 There’s no denying that AI-generated software is real, and it’s having an impact. Code generation tools are making it easier to prototype, automate repetitive tasks, and generate simple applications with minimal effort. This is similar to how social media and smartphones democratized content creation—suddenly, everyone could be a filmmaker, a photographer, or a journalist.
 
 However, just as smartphone cameras didn’t replace professional cinematographers, AI-generated software won’t replace experienced engineers. The biggest misconception in the current hype cycle is that **writing code is the hardest part of software development**. It isn’t. The real challenge is **building the right thing, making it usable, and maintaining it at scale.**
+
+&nbsp;
+![The code maze driven by AI](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Illusion%20of%20infinite%20software/Maze_of_AI_Code.jpeg) 
+&nbsp;
 
 ## The Complexity Gap: Why Software Engineering is More Than Code Generation
 
@@ -40,6 +44,10 @@ Right now, AI-generated software is already running into serious issues:
 
 Many of today’s AI-generated solutions will eventually implode under their own weight. Businesses betting too heavily on AI-written software without human oversight will find themselves constantly patching and rewriting systems that don’t function as expected.
 
+&nbsp;
+![AI only powered codebases everywhere](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Illusion%20of%20infinite%20software/AI_systems_crumbling_technical_debt.jpeg) 
+&nbsp;
+
 ## The Hidden Costs of AI-Generated Software
 
 On the surface, AI makes software development look cheap and effortless. But what happens when things break? Who maintains it? How do you ensure consistency and stability over time?
@@ -56,6 +64,10 @@ The reality is that AI **will** change software engineering, but not in the way 
 - Require engineers who are even more skilled, with broader knowledge to manage AI-driven development.
 - Focus on **AI-assisted creativity**, where engineers use AI to push the boundaries of what’s possible while maintaining control over complex systems.
 - Invest in **great UX, product strategy, and system architecture**—things AI cannot do well.
+
+&nbsp;
+![Developers leveraging AI = Powerful](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Illusion%20of%20infinite%20software/ai_and_developers_working_together.jpeg) 
+&nbsp;
 
 Big businesses won’t switch entirely to AI-driven development anytime soon. They will, however, integrate AI into their workflows while still relying on **expert engineers** to build and maintain high-quality software.
 
