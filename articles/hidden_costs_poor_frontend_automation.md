@@ -35,7 +35,7 @@ Technical debt is like a **credit card**—you can ignore it for a while, but ev
 &nbsp;
 
 ### 🐞 **Frequent Bugs and Code Inconsistencies**  
-Without **automated testing and validation**, bugs slip through, forcing teams into **endless cycles of debugging**.  
+Without **automated [testing](https://bitloops.com/docs/design-2-code/Guides/frontend-testing) and validation**, bugs slip through, forcing teams into **endless cycles of debugging**.  
 
 - **Manual frontend development = higher risk of inconsistencies.**  
 - **Inconsistent UI elements** lead to a **poor user experience** and lost customer trust.  
@@ -122,7 +122,7 @@ When developers are **stuck doing repetitive, mundane tasks**, job satisfaction 
 ## **How Bitloops Automates Frontend Development**  
 
 🚀 **Not Just Automation—Industry-Level Expertise**  
-Bitloops **doesn’t just generate code—it writes it like a senior engineer.**  
+Bitloops **[doesn’t just generate code—it writes it like a senior engineer.](https://bitloops.com/docs/design-2-code/overview/what-is-a-frontend-copilot)**  
 
 🔹 **Automated, responsive, component-based code generation.**  
 🔹 **Error-checking, modular structure, and scalable architecture built-in.**  
@@ -130,12 +130,12 @@ Bitloops **doesn’t just generate code—it writes it like a senior engineer.**
 
 **📊 Traditional Frontend vs. Bitloops-Automated Development**  
 
-| **Metric**         | **Manual Development**       | **With Bitloops**  |  
+| **Metric**         | **Manual Development**       | **With Bitloops**  |
 |--------------------|----------------------------|--------------------|  
-| Time spent on bug fixing  | **30% of project time**  | **10% of project time** |  
-| Time-to-market    | **12 weeks**                 | **6 weeks**        |  
-| Developer burnout risk | **High** | **Low** |  
-| Scalability      | **Hard to maintain** | **Easily scalable** |  
+| Time spent on bug fixing  | **30% of project time**  | **10% of project time** |
+| Time-to-market    | **12 weeks**                 | **6 weeks**        |
+| Developer burnout risk | **High** | **Low** |
+| Scalability      | **Hard to maintain** | **Easily scalable** |
 
 ---
 
@@ -143,14 +143,14 @@ Bitloops **doesn’t just generate code—it writes it like a senior engineer.**
 
 Poor frontend automation **isn’t just an inconvenience—it’s a business risk.**  
 
-🚨 **Technical debt will slow you down.**  
-🚨 **Missed deadlines will cost you market share.**  
-🚨 **Developer burnout will drain your team.**  
+- 🚨 **Technical debt will slow you down.**  
+- 🚨 **Missed deadlines will cost you market share.**  
+- 🚨 **Developer burnout will drain your team.**  
 
 But with **Bitloops**, you can:  
-✅ Reduce **frontend costs by up to 30%**.  
-✅ Launch features **weeks faster**.  
-✅ Minimize bugs and **reduce rework by 20%**.  
+- ✅ Reduce **frontend costs by up to 30%**.  
+- ✅ Launch features **weeks faster**.  
+- ✅ Minimize bugs and **reduce rework by 20%**.  
 
 💡 **Are your frontend processes costing you more than you realize?**  
-🔗 **Try Bitloops today and future-proof your development workflow.**
+🔗 **Try [Bitloops](https://bitloops.com) today and future-proof your development workflow.**
