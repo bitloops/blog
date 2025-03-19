@@ -1,5 +1,5 @@
 ---
-title: Convert Figma Designs to React Components  
+title: Converting Figma Designs into React Components like a Pro!
 description: Want to streamline your Figma to React workflow? This step-by-step guide shows you how to convert Figma designs into reusable React components, manage assets, apply CSS styling, and ensure responsiveness. Learn best practices for structuring your project and see how Bitloops automates the process, saving developers 10+ hours of manual work.
 author: Sergio
 date: 10-03-2025
@@ -17,7 +17,7 @@ It sounds simple, but if you’ve done this before, you know the frustrations:
 
 This process is a **cornerstone of frontend development**, yet it remains **tedious and repetitive**.  
 
-In this guide, I’ll walk you through **every step of converting a Figma design into React components**—and I’ll also show you how **Bitloops can automate most of this process**, saving you **hours of work**.  
+In this guide, I’ll walk you through **every step of converting a Figma design into React components**—and I’ll also show you how **[Bitloops can automate most of this process](https://bitloops.com)**, saving you **hours of work**.  
 
 Let’s dive in. 🚀  
 
@@ -30,7 +30,7 @@ First, let’s be clear: **this guide is for professional frontend developers**.
 No-code builders (like Webflow, Wix) are great for **simple sites**, but if you’re building **custom, scalable applications**, you need to:  
 ✅ **Understand how designs translate into real code**  
 ✅ **Structure maintainable, reusable UI components**  
-✅ **Apply best practices for performance and scalability**  
+✅ **Apply [best practices](https://bitloops.com/docs/design-2-code/Guides/frontend-best-practices) for performance and scalability**  
 
 React, with its **component-based architecture**, makes this process **efficient—if done correctly**.  
 
@@ -46,59 +46,53 @@ Translating Figma designs into React components **isn’t just about copying ele
 Figma is the **most popular UI/UX design tool**, allowing designers to create **intricate, collaborative designs**.  
 
 As a frontend developer, spending time in Figma helps you:  
-✅ **Understand how designers think** and why certain decisions are made  
-✅ **Learn about spacing, typography, and layout principles** that translate into CSS  
-✅ **Collaborate more effectively** with design teams  
+- ✅ **Understand how designers think** and why certain decisions are made  
+- ✅ **Learn about spacing, typography, and layout principles** that translate into CSS  
+- ✅ **Collaborate more effectively** with design teams  
 
 🔥 **Bitloops Insight:** Instead of manually analyzing the design, **Bitloops automatically identifies components, extracts assets, and organizes everything for you**.  
 
----
 
 ### **HTML: The Skeleton of the Web**  
 HTML (**HyperText Markup Language**) is the foundation of every web page. As a frontend developer, you need to:  
-✅ **Understand HTML semantics** (e.g., when to use `<section>` vs. `<div>`)  
-✅ **Structure content correctly** for accessibility and SEO  
-✅ **Ensure screen readers and search engines interpret your code properly**  
+- ✅ **Understand HTML semantics** (e.g., when to use `<section>` vs. `<div>`)  
+- ✅ **Structure content correctly** for accessibility and SEO  
+- ✅ **Ensure screen readers and search engines interpret your code properly**  
 
 Every **React component** you build will **ultimately render HTML**, so mastering this is essential.  
-
----
 
 ### **CSS: Styling the Web**  
 CSS (**Cascading Style Sheets**) controls the **visual appearance and layout** of web pages.  
 
 To build great React components, you should:  
-✅ **Understand the box model** (margin, padding, borders)  
-✅ **Use Flexbox and Grid** for responsive layouts  
-✅ **Write scalable styles** (CSS Modules, Styled Components, or Tailwind)  
+- ✅ **Understand the box model** (margin, padding, borders)  
+- ✅ **Use Flexbox and Grid** for responsive layouts  
+- ✅ **Write scalable styles** (CSS Modules, Styled Components, or Tailwind)  
 
 🔥 **Bitloops Insight:** Instead of **manually copying styles from Figma**, Bitloops **extracts colors, fonts, spacing, and layouts automatically**—saving you time.  
-
----
 
 ### **Component-Based Architecture: The Power of React**  
 React revolutionized frontend development by introducing **component-based architecture**.  
 
 🔹 **What is a component?**  
 A **self-contained piece of UI** that can be reused across your app. Examples:  
-✅ `<Button />`  
-✅ `<Navbar />`  
-✅ `<Card />`  
+- ✅ `<Button />`  
+- ✅ `<Navbar />`  
+- ✅ `<Card />`  
 
 🔹 **Why does this matter?**  
-✅ **Improves maintainability**—smaller files, easier debugging  
-✅ **Boosts reusability**—use the same component across different pages  
-✅ **Enhances scalability**—large apps stay organized  
+- ✅ **Improves maintainability**—smaller files, easier debugging  
+- ✅ **Boosts reusability**—use the same component across different pages  
+- ✅ **Enhances scalability**—large apps stay organized  
 
 🔥 **Bitloops Insight:** Bitloops **automatically detects reusable components** from your Figma design, ensuring a **well-structured React project**.  
 
----
 
 ### **React: The Engine Behind It All**  
 React is a **JavaScript library** for building **interactive UIs**. It lets you:  
-✅ **Encapsulate UI logic** into reusable components  
-✅ **Use JSX** (a syntax similar to HTML but inside JavaScript)  
-✅ **Manage state and user interactions dynamically**  
+- ✅ **Encapsulate UI logic** into reusable components  
+- ✅ **Use JSX** (a syntax similar to HTML but inside JavaScript)  
+- ✅ **Manage state and user interactions dynamically**  
 
 **Example of a simple React component:**  
 ```jsx
@@ -114,29 +108,29 @@ export default Button;
 
 *Ok, now lets dive into the key steps!*
 
-### **Step 1: Analyze Your Figma Design**  
+## **Step 1: Analyze Your Figma Design**  
 
 Before writing any code, you need to **understand the structure of your design** and break it down into components.  
 
-#### **What to Look For in the Design:**  
+### **What to Look For in the Design:**  
 - 🔹 **Reusable Components** – Buttons, inputs, modals, cards  
 - 🔹 **Layout Elements** – Header, footer, sidebar, grids  
 - 🔹 **Global Styles** – Colors, fonts, spacing, shadows  
 
-#### **Example Breakdown of a Figma Design:**  
+### **Example Breakdown of a Figma Design:**  
 
 | **UI Element**    | **Component Name**    | **Reusable?** |  
 |------------------|---------------------|-------------|  
-| Button          | `<Button />`         | ✅ Yes      |  
-| Navbar         | `<Navbar />`         | ✅ Yes      |  
-| Product Card   | `<ProductCard />`    | ✅ Yes      |  
-| Hero Section   | `<Hero />`           | ❌ No (Page-Specific) |  
+| Button          | *<Button />*         | ✅ Yes      |  
+| Navbar         | *<Navbar />*         | ✅ Yes      |  
+| Product Card   | *<ProductCard />*    | ✅ Yes      |  
+| Hero Section   | *<Hero />*           | ❌ No (Page-Specific) |  
 
-🔥 **Bitloops Insight:** Instead of manually analyzing the design, **Bitloops automatically detects reusable UI elements** and prepares them for **code conversion**.  
+🔥 **Bitloops Insight:** Instead of manually analyzing the design, **Bitloops automatically detects reusable UI elements** and prepares them for **[code conversion](https://bitloops.com/docs/design-2-code/Guides/design-conversion-basics)**.  
 
 ---
 
-### **Step 2: Set Up Your React Project**  
+## **Step 2: Set Up Your React Project**  
 
 Before we start coding, let’s **set up a React project** with a clean folder structure.  
 
@@ -152,11 +146,11 @@ npm start
 npm install react-router-dom styled-components framer-motion
 ```
 
-| **Feature**     | **Package**          |  
-|----------------|---------------------|  
-| Routing       | `react-router-dom`   |  
-| Animations    | `framer-motion`      |  
-| CSS-in-JS     | `styled-components`  |  
+| **Feature**     | **Package**         |  
+|----------------|----------------------|  
+| Routing        | *react-router-dom*   |  
+| Animations     | *framer-motio*       |  
+| CSS-in-JS      | *styled-components*  |  
 
 🔥 **Bitloops Insight:** Bitloops **automatically structures your project**, eliminating the need for manual setup.  
 
@@ -411,13 +405,13 @@ CSS **media queries** adjust styles dynamically based on the viewport size.
 }
 ```
 
-✅ **Best Practice:** Start with a **mobile-first approach**, then scale up for larger screens.  
+**Best Practice:** Start with a **mobile-first approach**, then scale up for larger screens.  
 
 
 ### **2️⃣ Use Flexible Layouts (Flexbox & Grid)**  
 
-✅ **Flexbox:** Ideal for **one-dimensional layouts** (e.g., navigation bars, lists).  
-✅ **CSS Grid:** Best for **two-dimensional layouts** (e.g., dashboards, complex structures).  
+- ✅ **Flexbox:** Ideal for **one-dimensional layouts** (e.g., navigation bars, lists).  
+- ✅ **CSS Grid:** Best for **two-dimensional layouts** (e.g., dashboards, complex structures).  
 
 #### **Example: Creating a Responsive Grid with CSS Grid**  
 ```css
@@ -428,15 +422,15 @@ CSS **media queries** adjust styles dynamically based on the viewport size.
 }
 ```
 
-✅ **Bitloops Insight:** Bitloops **analyzes your Figma design** and **applies responsive layouts automatically**, reducing manual effort.  
+**Bitloops Insight:** Bitloops **analyzes your Figma design** and **applies responsive layouts automatically**, reducing manual effort.  
 
 
 ### **3️⃣ Test on Multiple Devices & Browsers**  
 
 Use **browser developer tools** to test responsiveness on:  
-✅ **Mobile** (iOS, Android)  
-✅ **Tablets & iPads**  
-✅ **Laptops & Desktop Monitors**  
+- ✅ **Mobile** (iOS, Android)  
+- ✅ **Tablets & iPads**  
+- ✅ **Laptops & Desktop Monitors**  
 
 🔹 **Chrome DevTools:** Right-click → Inspect → Toggle Device Toolbar (**Ctrl + Shift + M**)  
 🔹 **Test in Different Browsers:** Chrome, Firefox, Safari, Edge  
@@ -446,8 +440,8 @@ Use **browser developer tools** to test responsiveness on:
 
 ### **4️⃣ Optimize Images & Assets for Performance**  
 
-✅ **Use appropriate image formats** (e.g., **SVG for icons, WebP for optimized images**).  
-✅ **Enable lazy loading** to defer offscreen images.  
+- ✅ **Use appropriate image formats** (e.g., **SVG for icons, WebP for optimized images**).  
+- ✅ **Enable lazy loading** to defer offscreen images.  
 
 #### **Example: Implementing Lazy Loading in JSX**  
 ```jsx
@@ -465,16 +459,16 @@ Now that your **UI is built**, it’s time to **fine-tune everything** and ensur
 ### **1️⃣ Pixel-Perfect Adjustments**  
 
 Compare your **React UI** with the original **Figma design** to ensure accuracy:  
-✅ **Check margins, paddings, font sizes, colors, and spacing.**  
-✅ **Use Figma's inspect tool** to copy exact values into CSS.  
+- ✅ **Check margins, paddings, font sizes, colors, and spacing.**  
+- ✅ **Use Figma's inspect tool** to copy exact values into CSS.  
 
 🔥 **Pro Tip:** Set up a **design token system** to store colors, spacing, and typography as **reusable variables**.  
 
 
 ### **2️⃣ Cross-Browser Testing**  
 
-✅ **Test in Chrome, Firefox, Safari, Edge** to ensure **consistent rendering**.  
-✅ **Use BrowserStack or LambdaTest** to test across different environments.  
+- ✅ **Test in Chrome, Firefox, Safari, Edge** to ensure **consistent rendering**.  
+- ✅ **Use BrowserStack or LambdaTest** to test across different environments.  
 
 #### **Example: CSS Fix for Safari Compatibility**  
 
@@ -487,25 +481,25 @@ Compare your **React UI** with the original **Figma design** to ensure accuracy:
 
 ### **3️⃣ Performance Optimization**  
 
-✅ **Run Google Lighthouse audits** to identify performance bottlenecks.  
-✅ **Minify CSS & JavaScript** using tools like **Terser** and **csso**.  
-✅ **Remove unused code** to reduce file sizes.  
+- ✅ **Run Google Lighthouse audits** to identify performance bottlenecks.  
+- ✅ **Minify CSS & JavaScript** using tools like **Terser** and **csso**.  
+- ✅ **Remove unused code** to reduce file sizes.  
 
 🔥 **Example: Minify CSS with PostCSS**  
 ```bash
 npm install postcss-cli cssnano --save-dev
 npx postcss styles.css --use cssnano -o styles.min.css
 ```
-✅ **Bitloops Insight:** Bitloops **automatically optimizes performance, handling CSS minification and asset compression.**  
+**Bitloops Insight:** Bitloops **automatically optimizes performance, handling CSS minification and asset compression.**  
 
 
 ### **4️⃣ Accessibility Checks (A11Y Standards)**  
 
 Ensuring **accessibility** is **crucial for usability & compliance**.  
 
-✅ **Use semantic HTML** (e.g., `<button>` instead of `<div>` for clickable elements).  
-✅ **Ensure keyboard navigation works** using `tabindex`.  
-✅ **Add ARIA labels** where necessary.  
+- ✅ **Use semantic HTML** (e.g., `<button>` instead of `<div>` for clickable elements).  
+- ✅ **Ensure keyboard navigation works** using `tabindex`.  
+- ✅ **Add ARIA labels** where necessary.  
 
 #### **Example: Accessible Button with ARIA Label**  
 ```jsx
@@ -517,9 +511,9 @@ Ensuring **accessibility** is **crucial for usability & compliance**.
 
 ### **5️⃣ Gather User Feedback & Final Review**  
 
-✅ **Conduct user testing** to ensure a smooth experience.  
-✅ **Adjust UI/UX** based on real-world feedback.  
-✅ **Review with stakeholders** before deployment.  
+- ✅ **Conduct user testing** to ensure a smooth experience.  
+- ✅ **Adjust UI/UX** based on real-world feedback.  
+- ✅ **Review with stakeholders** before deployment.  
 
 🚀 **Final Step:** Your React UI is **Ready for Production!**  
 
@@ -536,20 +530,20 @@ There is no reason why a **designer** has to think deeply about **design and UX*
 Bitloops is a **Frontend AI-Agent** that **accelerates frontend development** by handling all the **boring, repetitive work for you**.  
 
 Our vision for Bitloops is that it will:  
-✅ **Analyze your Figma design**  
-✅ **Extract all text, images, and CSS**  
-✅ **Identify sections and components**  
-✅ **Build a responsive, component-based codebase**  
+- ✅ **Analyze your Figma design**  
+- ✅ **Extract all text, images, and CSS**  
+- ✅ **Identify sections and components**  
+- ✅ **Build a responsive, component-based codebase**  
 
 Just like an **experienced frontend engineer**—but in **minutes**.  
 
 ### **Bitloops Handles:**  
 
-✅ **Automatic Component Generation:** Quickly convert Figma components into **well-structured React components**.  
-✅ **Responsive Design Out of the Box:** No need to manually tweak for different devices—Bitloops incorporates **responsiveness directly**.  
-✅ **Testing:** Generates tests for **component properties and responsiveness** to ensure everything works smoothly.  
-✅ **Storybook Integration:** Automatically generates **Storybook stories for each component**, making it easy to **visualize and test components in isolation**.  
-✅ **Extracts all text, images, and styles instantly.**  
+- ✅ **Automatic Component Generation:** Quickly convert Figma components into **well-structured React components**.  
+- ✅ **Responsive Design Out of the Box:** No need to manually tweak for different devices—Bitloops incorporates **responsiveness directly**.  
+- ✅ **[Testing:](https://bitloops.com/docs/design-2-code/Guides/frontend-testing)** Generates tests for **component properties and responsiveness** to ensure everything works smoothly.  
+- ✅ **[Storybook Integration:](https://bitloops.com/docs/design-2-code/Guides/working-with-storybook)** Automatically generates **Storybook stories for each component**, making it easy to **visualize and test components in isolation**.  
+- ✅ **Extracts all text, images, and styles instantly.**  
 
 
 ## **Manual vs. Bitloops: Time Saved**  
