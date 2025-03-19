@@ -130,7 +130,7 @@ Bitloops **[doesn’t just generate code—it writes it like a senior engineer.]
 
 **📊 Traditional Frontend vs. Bitloops-Automated Development**  
 
-| **Metric**         | **Manual Development**       | **With Bitloops**  |
+| Metric        | Manual Development      | With Bitloops  |
 |--------------------|----------------------------|--------------------|  
 | Time spent on bug fixing  | 30% of project time | 10% of project time |
 | Time-to-market    | 12 weeks                 | 6 weeks       |
