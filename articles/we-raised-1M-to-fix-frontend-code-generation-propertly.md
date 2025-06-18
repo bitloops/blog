@@ -96,31 +96,29 @@ It’s early—but the signs are clear. There’s massive demand for a tool that
 
 This €1M pre-seed round gives us the momentum to go deeper—not just in features, but in foundational tech. Bitloops isn’t a generic AI wrapper. It’s a specialised coding assistant trained for the realities of frontend engineering.
 
-### 🔧 Product Development
+### 🔧  Product Development
 
 - Full support for design systems, prop-driven component variants, and responsive logic at scale  
 - Smart integrations with CMSs, testing frameworks, and version control tools  
 - More granular control over layout behavior and less post-generation refactoring  
 
-### 🧠 AI and Architecture
+### 🧠  AI and Architecture
 
 - Fine-tuning our **Domain-Specific Language Models (DSLMs)**  
 - Smarter **component reuse** and nested structure detection  
 - Expanded **Storybook and documentation** scaffolding  
 
-**Bitloops is becoming more than a tool—it’s your teammate. And we’re just getting started.**
+### 👥  Team Growth
 
-### 👥 Team Growth
-
-We’re a focused crew of eight—engineers, AI researchers, and product builders—working hands-on with every line of code and every user feedback loop.
-
-This next chapter is about **scale**: we’re hiring across engineering, product, and design to accelerate roadmap delivery, support our growing alpha community, and lay the groundwork for a category-defining platform.
+- Bitloops is a focused crew of eight—engineers, AI researchers, and product builders—working hands-on with every line of code and every user feedback loop.
+- We’re hiring across engineering, product, and design to accelerate roadmap delivery, support our growing alpha community, and lay the groundwork for a category-defining platform.
 
 &nbsp;
 
 ## Join Us on the Journey
 
-We’re just getting started.  
+We’re just getting started!  
+
 If you're a frontend developer tired of throwing away auto-generated spaghetti code—or a founder looking to move faster without breaking your UI—we’d love to have you try Bitloops.
 
 ➡️ [Sign up for early access at bitloops.com](https://bitloops.com)  
@@ -131,6 +129,7 @@ Thanks to our investors, early users, and team for believing in this vision.
 We’re thrilled to be building the future of frontend development—and we’d love for you to be part of it.
 
 &nbsp;
+
 ---
 
 ## FAQ: Frequently Asked Questions
@@ -145,6 +144,7 @@ Bitloops is built for developers and teams who care about code quality. If you�
 
 **3. How is Bitloops different from other design-to-code tools?**  
 Most tools focus on prototypes. Bitloops focuses on production. We use proprietary models and custom workflows to generate code that meets real-world dev standards.
+&nbsp;
 
 ---
 
@@ -164,6 +164,7 @@ Built-in checks for responsiveness and layout accuracy are included.
 
 **8. How does Bitloops handle responsive design?**  
 We generate code for multiple screen sizes, using layout patterns and breakpoints.
+&nbsp;
 
 ---
 
@@ -177,6 +178,7 @@ Yes! Bitloops works with **VS Code**, **Cursor**, and **Windsurf**.
 
 **11. What about GitHub and version control?**  
 Bitloops integrates with GitHub and your toolchain out of the box.
+&nbsp;
 
 ---
 
@@ -187,6 +189,7 @@ No. Your data is private and secure.
 
 **13. Do you use my data to improve your models?**  
 Free tier: anonymized data may be used. Paid plans include strict no-data usage.
+&nbsp;
 
 ---
 
@@ -197,6 +200,7 @@ Free tier available. Paid plans scale with usage and team size.
 
 **15. Can I use Bitloops today?**  
 Bitloops is in **closed alpha**. Join the waitlist for early access.
+&nbsp;
 
 ---
 
