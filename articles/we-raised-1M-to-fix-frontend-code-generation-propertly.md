@@ -1,13 +1,11 @@
 ---
-title: We raised 1M euros to fix frontend code generation - Propertly!
+title: We raised €1M euros to fix frontend code generation - Propertly!
 description: Bitloops raises €1M to revolutionize frontend code generation. Discover how we're turning Figma designs into production-ready React code with AI that writes like a senior developer—clean, scalable, and design-system friendly.
 author: Vasili
 date: 18-06-2025
 image: hhttps://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
 tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation', 'AI-Assisted Coding','Pre-Seed','Venture Capital']
 ---
-# We raised €1M to fix frontend code generation—properly
-
 Every UI starts as a design—but getting from that design to production-ready code is anything but simple. Behind every button, layout, and variant lies a maze of decisions: how to structure components, handle responsiveness, plug into design systems, and avoid the kind of tech debt that quietly spirals out of control.
 
 On the surface, this process might look like something AI should’ve solved already. But the truth is: it's still really hard. Most current approaches—whether it's copy-pasting from AI assistants or using rigid export tools—fall short where it matters most: clean, scalable, team-friendly code that’s ready for production.
@@ -16,7 +14,7 @@ That’s why we’ve spent the last year building **Bitloops**—a specialised A
 
 And now, with our **€1 million pre-seed funding round**, led by **Eleven Ventures** with participation from **Corallia Ventures** and several incredible angel investors, we’re doubling down on building the platform frontend teams actually need.
 
----
+&nbsp;
 
 ## Where We Started
 
@@ -26,7 +24,7 @@ What was missing? **Craftsmanship.** Tools that truly understood how to create r
 
 That’s when we knew we were onto something. By combining advanced AI models with the right workflow automation, we could translate Figma designs into production-grade React components—just like a senior dev would: structured, extensible, and fully documented.
 
----
+&nbsp;
 
 ## Why We Raised
 
@@ -40,7 +38,7 @@ We saw the potential in LLMs—but we knew that real teams need more than code s
 
 This round gives us the runway to build the next phase of Bitloops: an AI-powered frontend automation platform that **respects your standards**, **scales with your design system**, and **fits your team’s workflow**.
 
----
+&nbsp;
 
 ## The Problem We’re Solving
 
@@ -61,7 +59,7 @@ We’re building:
 
 We’re focused on solving **real-world problems**, not just demo scenarios.
 
----
+&nbsp;
 
 ## Why Now?
 
@@ -76,7 +74,7 @@ With this round, we’re going deeper:
 - Fine-tuning our proprietary AI models for accuracy and structure  
 - Growing our engineering team across **Athens** and **Nicosia**
 
----
+&nbsp;
 
 ## Where We Are Now
 
@@ -92,7 +90,7 @@ In just over a year, we’ve gone from concept to momentum:
 
 It’s early—but the signs are clear. There’s massive demand for a tool that takes design-to-code seriously, and we’re building it alongside the developers who need it most.
 
----
+&nbsp;
 
 ## What’s Ahead: Building the AI Coding Assistant Frontend Teams Deserve
 
@@ -118,7 +116,7 @@ We’re a focused crew of eight—engineers, AI researchers, and product builder
 
 This next chapter is about **scale**: we’re hiring across engineering, product, and design to accelerate roadmap delivery, support our growing alpha community, and lay the groundwork for a category-defining platform.
 
----
+&nbsp;
 
 ## Join Us on the Journey
 
@@ -132,6 +130,7 @@ If you're a frontend developer tired of throwing away auto-generated spaghetti c
 Thanks to our investors, early users, and team for believing in this vision.  
 We’re thrilled to be building the future of frontend development—and we’d love for you to be part of it.
 
+&nbsp;
 ---
 
 ## FAQ: Frequently Asked Questions
