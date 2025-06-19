@@ -3,7 +3,7 @@ title: We raised €1M euros to fix frontend code generation - Propertly!
 description: Bitloops raises €1M to revolutionize frontend code generation. Discover how we're turning Figma designs into production-ready React code with AI that writes like a senior developer—clean, scalable, and design-system friendly.
 author: Vasili
 date: 18-06-2025
-image: hhttps://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
 tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation', 'AI-Assisted Coding','Pre-Seed','Venture Capital']
 ---
 Every UI starts as a design—but getting from that design to production-ready code is anything but simple. Behind every button, layout, and variant lies a maze of decisions: how to structure components, handle responsiveness, plug into design systems, and avoid the kind of tech debt that quietly spirals out of control.
