@@ -2,7 +2,7 @@
 title: Empowering Developers with Enhanced Control
 description: We're working on a new version of Bitloops. Our focus remains on developer productivity with innovative design-to-code automation. Our up-coming platform release offers enhanced control, allowing developers to fine-tune automated code for more personalized and efficient project outcomes.
 author: Vasilis
-date: 14-06-2024
+date: 14-June-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
 tags: ['Design-to-Code', 'Frontend Development', 'Figma-to-Code', 'HTML', 'CSS', 'React']
 ---

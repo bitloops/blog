@@ -2,7 +2,7 @@
 title: Words Matter - Revolutionizing Text Management in Web Projects
 description: Manage your text like an experienced frontend engineer with a simple click. Bitloops helps you extract and manage your text fields with ease, allowing you to connect them to content management systems, add translations, etc. 
 author: Sergio
-date: 12-02-2024
+date: 12-February-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/words-matter-frontend-development.jpg
 tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React', 'Text Management', 'Managing Text']
 ---

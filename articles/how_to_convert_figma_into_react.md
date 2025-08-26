@@ -1,8 +1,8 @@
 ---
 title: Converting Figma Designs into React Components like a Pro!
-description: Want to streamline your Figma to React workflow? This step-by-step guide shows you how to convert Figma designs into reusable React components, manage assets, apply CSS styling, and ensure responsiveness. Learn best practices for structuring your project and see how Bitloops automates the process, saving developers 10+ hours of manual work.
+description: Step-by-step guide to convert Figma designs into React components. Learn best practices for clean, reusable code and see how Bitloops automates the process.
 author: Sergio
-date: 10-03-2025
+date: 10-March-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert%20Figma%20designs%20into%20React%20Code/convert_figma_to_react_code.png
 tags: ['Figma-to-React', 'Frontend Automation', 'Design-to-Code Automation','Frontend Development','Design-to-Code']
 ---

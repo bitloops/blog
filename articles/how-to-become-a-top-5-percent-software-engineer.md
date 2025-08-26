@@ -2,7 +2,7 @@
 title: How to Become a Top 5% Software Engineer
 description: Unlock the secrets to becoming a top 5% software engineer. Learn essential skills, best practices, and strategies to master coding, software design, and career growth. Transform your passion for coding into a successful career!
 author: Sergio
-date: 23-09-2024
+date: 23-September-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/how%20to%20become%20top%205%25%20engineer%20blog%20image.jpg
 tags: ['Software Engineer', 'Software Development', 'Coding Skills', 'Developer Career', 'Programming', 'Tech Career']
 ---

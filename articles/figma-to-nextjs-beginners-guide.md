@@ -2,7 +2,7 @@
 title: A Beginners Guide to converting Figma Designs to Next.js
 description: Step-by-step guide on how to convert figma designs into a Next.js project, ensuing the code is well-structured, responsive and component-based. Overview of the key steps, challenges and how Next.js and Bitloops can expedite the process 
 author: Vasilis
-date: 12-02-2024
+date: 12-February-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Figma-to-next.jpg
 tags: ['Software Development', 'Figma-to-Next.js', 'Design-to-Code','Frontend Co-Pilot','Frontend Engineeering', 'Next.js Tutorial']
 ---
@@ -158,7 +158,9 @@ Set up custom configurations, such as image domains, redirects, or environment v
  - Analyze the design and list out all unique components. Prioritize building atomic components first (e.g., buttons, inputs).
 
 2. **Create React Component:**
- - For each design component, create a matching React component. Use styled-components or CSS Modules to style your components based on the design tokens defined in Figma.
+ - For each design component, create a matching React component. Use styled-components or CSS Modules to style your components based on the design tokens defined in Figma. 
+
+**Note: [Bitloops](https://bitloops.com) is being built to execute both these tasks: analyze & componentize a design, and then build the individual react components automatically.** 
 
 **Example: Creating a Button Component:**
 

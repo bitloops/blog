@@ -1,8 +1,8 @@
 ---
-title: Converting Figma Designs into Professional React Code!
-description: Practical, step-by-step guide on how to convert designs into well-structured, responsive and component-based React code. Overview of the key steps, challenges and how Bitloops can be used to significantly expedite the process 
+title: Challenges in Design-to-Code workflows (and how AI helps)
+description: Explore the challenges of design-to-code workflows and learn how frontend engineers turn Figma designs into scalable, maintainable React applications.
 author: Sergio
-date: 09-02-2024
+date: 09-February-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/figma-to-react.png
 tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React','Frontend Development','React Components']
 ---
@@ -275,7 +275,7 @@ Here’s an overview of the process, along with potential challenges and tips fo
 - **Responsive Assets:** Consider exporting images in multiple resolutions or using vector formats like SVG when appropriate to accommodate different device sizes and resolutions.
 
 
-This is where Bitloops’ Asset Extractor kicks in. Whilst there are some Figma plugins that can automate parts of the export process, Bitloops offers a more complete solution by exporting all images at once, organizing them into respective folders, and generating various formats and sizes
+This is where Bitloops’ Asset Extractor kicks in. Whilst there are some plugins that can automate parts of the export process, Bitloops offers a more complete [figma-to-react](https://bitloops.com/blog/how_to_convert_figma_into_react) solution by exporting all images at once, organizing them into respective folders, and generating various formats and sizes
 
 ### Testing, Refinement and Deployment
 Once the foundational coding and asset management are in place, the next critical phases in web development are testing, refinement, and deployment. This stage is where the application is rigorously evaluated, polished, and finally made available to end-users. Here's an outline of this crucial process:
@@ -390,7 +390,7 @@ With these 3 quick steps, you’ll benefit from the structured, maintainable cod
 In the rapidly evolving world of web development, the journey from design to code embodies the fusion of creativity and technical precision.
 Bitloops aims to be a beacon of innovation, offering a transformative solution that redefines the essence of frontend engineering. It's more than a tool; it's a catalyst for change, streamlining the development process and setting a new standard for efficiency and collaboration.
 
-Bitloops represents an era where the focus shifts from the mundane to the extraordinary. By automating the conversion of designs into professional, maintainable code, Bitloops liberates developers to invest their time and talent in what truly matters: crafting exceptional digital experiences that captivate and engage. This automation is not a replacement for the developer's role but an elevation, enhancing creativity and enabling a deeper focus on innovation and user engagement.
+[Bitloops](https://bitloops.com) represents an era where the focus shifts from the mundane to the extraordinary. By automating the conversion of designs into professional, maintainable code, Bitloops liberates developers to invest their time and talent in what truly matters: crafting exceptional digital experiences that captivate and engage. This automation is not a replacement for the developer's role but an elevation, enhancing creativity and enabling a deeper focus on innovation and user engagement.
 
 The integration of Bitloops with industry staples like Figma and Visual Studio Code is a testament to its commitment to enhancing, not disrupting, existing workflows. It's an invitation to developers and designers to step into the future, one where the gap between design and code is seamlessly bridged, and the potential for innovation is boundless.
 

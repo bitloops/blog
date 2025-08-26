@@ -2,7 +2,7 @@
 title: Automation can improve collabration between designers and developers
 description: Discover how automation bridges the gap between designers and developers by eliminating miscommunication, reducing rework, and streamlining workflows. Learn how tools like Bitloops enhance collaboration through real-time updates, automated handoffs, and design-to-code consistency.
 author: Sergio
-date: 15-03-2025
+date: 15-March-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/automation_designer_developer/design_to_code_handover.png
 tags: ['Design Handoff', 'Frontend Automation', 'Design-to-Code','frontend workflow','Design-Dev Collaboration']
 ---
