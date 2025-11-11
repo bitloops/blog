@@ -12,6 +12,7 @@ tags: ['Frontend Architecture', 'UI-text','Chrome-Text','CMS', 'Content-Text', '
 
 Every frontend developer has faced this moment:  
 You open a codebase and wade through a jungle of words - some hard-coded, some localized, some mysteriously pulled from a content management system (CMS) no one dares to touch.  
+
 Some text lives inside components. Some hide in JSON files. Others lost in translation - literally.
 
 And then it happens - marketing wants to “just change a few words.”  
