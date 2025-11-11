@@ -2,7 +2,7 @@
 title: The Journey, The Vision - Changing backend software | Bitloops
 description: How often have your product ideas been shelved due to lack of resources, or high cost / time to implement? Well, we at Bitloops want to change that!
 author: Sergio
-date: 29-11-2022
+date: 29-November-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/luggage.jpg
 tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity','Backend Development','Software Development']
 ---

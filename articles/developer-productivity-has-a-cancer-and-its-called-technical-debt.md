@@ -2,7 +2,7 @@
 title: Developer productivity has a cancer and its called technical debt!
 description: Developers want to be productive, solve problems and see their hard work come to fruition. Technical debt reduces productivity greatly when unmanaged!
 author: Antonis
-date: 03-12-2022
+date: 03-December-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/code.jpg
 tags: ['Technical Debt', 'Developer Productivity', 'Clean Architecture', 'Clean Code']
 ---

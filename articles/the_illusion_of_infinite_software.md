@@ -2,7 +2,7 @@
 title: The Illusion of Infinite Software - Why AI Won’t Replace Great Engineering
 description: AI is reshaping software development, but does it signal the end of software engineering? This article explores the reality behind AI-generated code, its limitations, and why human expertise in product design, UX, and scalability remains crucial for building high-quality software.
 author: Sergio
-date: 14-03-2025
+date: 14-March-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Illusion%20of%20infinite%20software/the_ai_development_maze.jpeg
 tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation','AI and Human Collaboration','AI Limitations']
 ---

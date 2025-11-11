@@ -2,7 +2,7 @@
 title: 13 Essential Traits to Become a Software Engineer and crush it!
 description: Learn how to become a successful software engineer by mastering essential traits like technical knowledge, problem-solving, and teamwork. Discover the key steps to start and excel in your software engineering career.
 author: Sergio
-date: 22-10-2024
+date: 22-October-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/How%20to%20become%20a%20developer/how_to_become_a_software_developer.jpg
 tags: ['Software Engineering', 'Coding Best Practices','Career Growth','Become a Developer', 'Problem-Solving Skills', 'Software Architecture']
 ---
