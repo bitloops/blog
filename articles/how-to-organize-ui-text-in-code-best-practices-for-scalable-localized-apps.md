@@ -3,7 +3,7 @@ title: How to Organize UI Text in Code - Best Practices for Scalable, Localized 
 description: A practical guide on structuring and managing text in your frontend codebase. Learn how to separate Chrome Text, UI Text, and Content Text to improve scalability, localization, and team collaboration.
 author: George
 date: 11-11-2025
-image: <https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/How%20to%20Organize%20UI%20Text%20in%20Code%3A%20Best%20Practices%20for%20Scalable%2C%20Localized%20Apps/final%20cover%20image.jpeg>
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/How%20to%20Organize%20UI%20Text%20in%20Code%3A%20Best%20Practices%20for%20Scalable%2C%20Localized%20Apps/final%20cover%20image.jpeg
 tags: ['Frontend Architecture', 'UI-text','Chrome-Text','CMS', 'Content-Text', 'Content-Management']
 ---
 
