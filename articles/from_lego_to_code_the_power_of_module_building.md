@@ -2,7 +2,7 @@
 title: From Lego to Code - The power of Modular Building
 description: Discover how the principles behind building with Lego apply to modern software development. Learn how modular components, automation, and tools like Bitloops can help developers build faster, smarter, and more efficiently—block by block.
 author: Sergio
-date: 20-10-2024
+date: 20-October-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/from_lego_to_code/from_lego_to_code.jpg
 tags: ['Modular Development', 'Component Reusability','Frontend Engineering','Automation in Coding', 'Design-to-Code', 'UI Components']
 ---

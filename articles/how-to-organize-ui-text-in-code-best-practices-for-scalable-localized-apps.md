@@ -1,6 +1,5 @@
 ---
-
-title: How to Organize UI Text in Code: Best Practices for Scalable, Localized Apps
+title: How to Organize UI Text in Code - Best Practices for Scalable, Localized Apps
 description: A practical guide on structuring and managing text in your frontend codebase. Learn how to separate Chrome Text, UI Text, and Content Text to improve scalability, localization, and team collaboration.
 author: George
 date: 11-11-2025

@@ -2,7 +2,7 @@
 title: Taming the Asset Jungle in Frontend Development
 description: Elevate user experience with innovative strategies for frontend asset optimization. 
 author: Sergio
-date: 12-02-2024
+date: 12-February-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/asset_jungle.png
 tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React', 'Asset Management', 'Managing Images']
 ---

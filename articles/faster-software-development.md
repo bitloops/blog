@@ -2,7 +2,7 @@
 title: Mastering Speed in Software Development
 description: Learn how to deliver better software faster by managing complexity, minimizing rework, and improving developer focus without burnout.
 author: Sergio
-date: 25-10-2024
+date: 25-October-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/faster%20software%20development/faster_software_development.jpg
 tags: ['Software Development', 'Developer Productivity','Technical Debt','Agile Development', 'Development Speed', 'Continuous Improvement']
 ---

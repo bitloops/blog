@@ -2,7 +2,7 @@
 title: AI's potential is huge, but it's human ingenuity that will change the world
 description: AI is a powerful tool, but human creativity drives true innovation. This post explores how AI enhances, not replaces, human ingenuity in software development, highlighting Bitloops' approach to combining AI automation with human oversight for high-quality results.
 author: Sergio
-date: 14-10-2024
+date: 14-October-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/AI's%20potential%20is%20huge%20but%20it's%20human%20ingenuity%20that%20will%20change%20the%20world/ai_and_humans_working_together.png
 tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation', 'AI-Assisted Coding','AI and Human Collaboration','AI Limitations']
 ---

@@ -2,7 +2,7 @@
 title: Global CSS - There's got to be a better way
 description: Cascading Style Sheets are the backbone of website's visual identify, and managing this requires experience, structure organization and foresight. Understanding the challenges will help you become a better web developer
 author: Sergio
-date: 12-02-2024
+date: 12-February-2024
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/global_css.jpg
 tags: ['Software Development', 'Design-2-Code','Frontend AI-Agent','Figma-2-React', 'Global CSS', 'Cascading Style Sheets']
 ---
