@@ -1,11 +1,20 @@
 ---
-title: We raised €1M euros to fix frontend code generation - Propertly!
+title: We raised €1M euros to fix frontend code generation - Properly!
 description: Bitloops raises €1M to revolutionize frontend code generation. Discover how we're turning Figma designs into production-ready React code with AI that writes like a senior developer—clean, scalable, and design-system friendly.
 author: Vasilis
 date: 18-June-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Bitloops_Team_Photo.jpg
-tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation', 'AI-Assisted Coding','Pre-Seed','Venture Capital']
+tags:
+  [
+    "Future of AI",
+    "Bitloops AI Workflow",
+    "Design-to-Code Automation",
+    "AI-Assisted Coding",
+    "Pre-Seed",
+    "Venture Capital",
+  ]
 ---
+
 Every UI starts as a design—but getting from that design to production-ready code is anything but simple. Behind every button, layout, and variant lies a maze of decisions: how to structure components, handle responsiveness, plug into design systems, and avoid the kind of tech debt that quietly spirals out of control.
 
 On the surface, this process might look like something AI should’ve solved already. But the truth is: it's still really hard. Most current approaches—whether it's copy-pasting from AI assistants or using rigid export tools—fall short where it matters most: clean, scalable, team-friendly code that’s ready for production.
@@ -51,10 +60,10 @@ It’s a platform that turns static designs into **production-grade frontend sys
 
 We’re building:
 
-- 🧱 **Reusable React components** that adapt to props and variants  
-- 📚 **Storybook documentation** generated out of the box  
-- 🎨 **Custom design system mapping**, not just one-off styles  
-- 📐 **Built-in tests** for responsiveness and layout accuracy  
+- 🧱 **Reusable React components** that adapt to props and variants
+- 📚 **Storybook documentation** generated out of the box
+- 🎨 **Custom design system mapping**, not just one-off styles
+- 📐 **Built-in tests** for responsiveness and layout accuracy
 - 🔁 **Iterative workflows**—change your design, re-generate your code, and keep going
 
 We’re focused on solving **real-world problems**, not just demo scenarios.
@@ -69,9 +78,9 @@ Most current tools make you choose between **moving fast** or **doing it right**
 
 With this round, we’re going deeper:
 
-- Supporting component variants and multi-viewport logic  
-- Expanding CMS and IDE integrations  
-- Fine-tuning our proprietary AI models for accuracy and structure  
+- Supporting component variants and multi-viewport logic
+- Expanding CMS and IDE integrations
+- Fine-tuning our proprietary AI models for accuracy and structure
 - Growing our engineering team across **Athens** and **Nicosia**
 
 &nbsp;
@@ -96,19 +105,19 @@ It’s early—but the signs are clear. There’s massive demand for a tool that
 
 This €1M pre-seed round gives us the momentum to go deeper—not just in features, but in foundational tech. Bitloops isn’t a generic AI wrapper. It’s a specialised coding assistant trained for the realities of frontend engineering.
 
-### 🔧  Product Development
+### 🔧 Product Development
 
-- Full support for design systems, prop-driven component variants, and responsive logic at scale  
-- Smart integrations with CMSs, testing frameworks, and version control tools  
-- More granular control over layout behavior and less post-generation refactoring  
+- Full support for design systems, prop-driven component variants, and responsive logic at scale
+- Smart integrations with CMSs, testing frameworks, and version control tools
+- More granular control over layout behavior and less post-generation refactoring
 
-### 🧠  AI and Architecture
+### 🧠 AI and Architecture
 
-- Fine-tuning our **Domain-Specific Language Models (DSLMs)**  
-- Smarter **component reuse** and nested structure detection  
-- Expanded **Storybook and documentation** scaffolding  
+- Fine-tuning our **Domain-Specific Language Models (DSLMs)**
+- Smarter **component reuse** and nested structure detection
+- Expanded **Storybook and documentation** scaffolding
 
-### 👥  Team Growth
+### 👥 Team Growth
 
 - Bitloops is a focused crew of eight—engineers, AI researchers, and product builders—working hands-on with every line of code and every user feedback loop.
 - We’re hiring across engineering, product, and design to accelerate roadmap delivery, support our growing alpha community, and lay the groundwork for a category-defining platform.
@@ -117,7 +126,7 @@ This €1M pre-seed round gives us the momentum to go deeper—not just in featu
 
 ## Join Us on the Journey
 
-We’re just getting started!  
+We’re just getting started!
 
 If you're a frontend developer tired of throwing away auto-generated spaghetti code—or a founder looking to move faster without breaking your UI—we’d love to have you try Bitloops.
 
