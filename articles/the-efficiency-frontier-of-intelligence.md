@@ -52,8 +52,6 @@ The mistake in most AI discussions is treating human intelligence as the baselin
 
 This does not diminish human intelligence. It makes it analyzable.
 
----
-
 ### 1.2 The Human Brain as a Cognitive Tool
 
 The human brain is a remarkably capable cognitive system with properties that remain unmatched:
@@ -92,8 +90,6 @@ Once implemented, an algorithm executes cheaply and indefinitely—but only with
 
 Algorithms are not “dumb.” They are **externalized intelligence frozen into code**.
 
----
-
 ### 1.4 Specialized Machine Learning Models as Cognitive Tools
 
 Specialized ML models occupy space between rigid algorithms and general reasoning.
@@ -115,8 +111,6 @@ Specialized ML systems are effective when the task distribution is stable and re
 
 This is where much of today’s economically successful AI lives.
 
----
-
 ### 1.5 Large Language Models as Cognitive Tools
 
 Large Language Models are general-purpose cognitive tools optimized for **language-mediated tasks**.
@@ -131,8 +125,6 @@ Their distinguishing features are:
 LLMs shift a large amount of cognitive work into pretraining, producing a tool that can be adapted quickly to new tasks—but at the cost of higher inference expense and less predictable behavior.
 
 Crucially, LLMs are not universally effective. They can be made highly accurate for specific classes of work with sufficient data, fine-tuning, and scaffolding—but in those regimes they are often economically dominated by simpler tools.
-
----
 
 ### 1.6 Comparing Cognitive Tools Requires a Common Lens
 
@@ -184,8 +176,6 @@ A cognitive tool is **effective** for a class of work if it can:
 
 While being able to complete a task with autonomy is _binary_ (you trust it or you don't), _utility_ is a spectrum (_see 2.8_).
 
----
-
 ### 2.2 Accuracy, Reliability, and Failure Modes Collapse into Effectiveness
 
 Rather than treating accuracy, reliability, and feasibility as separate axes, we collapse them into a single question:
@@ -201,8 +191,6 @@ This includes:
 - Whether error detection exists at all
 
 A tool that is cheap, fast, and scalable—but whose failures are silent and frequent—is not effective for most real systems.
-
----
 
 ### 2.3 Effectiveness Is Conditional, Not Absolute
 
@@ -223,8 +211,6 @@ Importantly, **effectiveness depends on context**:
 
 A tool may be effective in one regime and ineffective in another.
 
----
-
 ### 2.4 Effective Does Not Mean Economically Sensible
 
 A critical but subtle point:
@@ -239,8 +225,6 @@ For example:
 
 Effectiveness is a **necessary condition**, not a sufficient one.
 
----
-
 ### 2.5 Minimum Usable Thresholds Are Task-Dependent
 
 Different classes of work impose different effectiveness thresholds.
@@ -253,8 +237,6 @@ Different classes of work impose different effectiveness thresholds.
 Whether a tool is effective depends on whether it clears the **minimum acceptable threshold** for that work.
 
 This explains why the same LLM may be viable in one application and unusable in another.
-
----
 
 ### 2.6 Why Many AI Systems Fail Before Economics
 
@@ -269,8 +251,6 @@ Common failure modes include:
 - Misalignment between task requirements and tool behavior
 
 Once effectiveness is violated, no amount of cost optimization can salvage the system.
-
----
 
 ### 2.7 Passing the Gate
 
@@ -303,7 +283,7 @@ In the next section, we assume the effectiveness gate has been passed and examin
 
 Once a cognitive tool passes the effectiveness gate, the question shifts from _whether it works_ to _whether it is worth using_.
 
-This chapter formalizes the economic comparison between effective cognitive tools. The key result is simple but often overlooked:
+This section formalizes the economic comparison between effective cognitive tools. The key result is simple but often overlooked:
 
 > **Replacement happens only when a tool is both effective _and_ economically dominant for a stable class of work.**
 
@@ -432,8 +412,6 @@ Examples:
 In all cases, the tool works—but a cheaper effective alternative exists.
 
 Economic dominance is always **relative**.
-
----
 
 ### 3.7 Why Cost Arguments So Often Go Wrong
 
@@ -679,8 +657,6 @@ This task sits at the extreme head of the distribution. Any solution other than 
 
 This is the economic sweet spot for ML: uncertainty is real but constrained, and volume is sufficient to amortize costs.
 
----
-
 ### 5.3 Language-Native, Weakly Specified Work
 
 **Example: Cross-Domain Natural Language Translation of Intent**
@@ -711,8 +687,6 @@ This is a regime where LLMs are genuinely exceptional:
 - intent generalizes across domains
 
 LLMs win here not because they are cheap, but because no other automated tool is effective at all.
-
----
 
 ### 5.4 Sparse, Shifting, Contextual Work
 
@@ -781,7 +755,7 @@ These examples show that the efficiency frontier is not abstract—it is visible
 
 In the final section, we turn these insights into architectural guidance: how to design systems that assign cognitive work to the right tools as the frontier shifts.
 
-## Chapter 6 — Designing Systems Along the Efficiency Frontier
+## 6. Designing Systems Along the Efficiency Frontier
 
 The efficiency frontier of intelligence is a **system design discipline**.
 
@@ -789,7 +763,7 @@ Once we understand that different cognitive tools are effective and economical i
 
 > **How should a system be designed so that each class of work is handled by the right tool?**
 
-This chapter translates the framework into concrete design principles.
+This section translates the framework into concrete design principles.
 
 ---
 
@@ -991,91 +965,3 @@ This is not about building systems with more intelligence.
 It is about building systems with **intelligence in the right place**.
 
 That is the **_Efficiency Frontier of Intelligence_**.
-
-<!-- import numpy as np
-import matplotlib.pyplot as plt
-
-# Bitloops brand color
-BITLOOPS_PURPLE = "#7404e4"
-
-# X-axis: Task drift / long-tailness (0 = fully stable, 1 = highly drifting/long-tail)
-x = np.linspace(0, 1, 400)
-
-# Define "efficient" anchor points (best tool per regime)
-# These represent dominant deployments only (used to fit frontier)
-efficient_points = np.array([
-    (0.05, 1.25),  # Algorithm for F->C
-    (0.35, 0.90),  # Specialized ML for spam
-    (0.55, 0.72),  # LLM for intent translation
-    (0.85, 0.68),  # Human escalation handling
-])
-
-# Fit a smooth curve through efficient points
-coef = np.polyfit(efficient_points[:, 0], efficient_points[:, 1], deg=3)
-frontier_y = np.polyval(coef, x)
-
-# All viable deployments (including dominated ones)
-deployments = [
-    # F -> C
-    ("Algorithm for °F→°C", 0.05, 1.25),
-    ("Human for °F→°C", 0.05, 0.55),
-    ("LLM for °F→°C", 0.05, 0.30),
-    ("ML for °F→°C", 0.05, 0.45),
-
-    # Spam
-    ("Specialized ML for Spam", 0.35, 0.90),
-    ("LLM for Spam", 0.35, 0.45),
-    ("Human for Spam", 0.35, 0.30),
-
-    # Intent translation
-    ("LLM for Intent Translation", 0.55, 0.72),
-    ("Human for Intent Translation", 0.55, 0.55),
-
-    # Escalation
-    ("Human Escalation Handling", 0.85, 0.68),
-    ("LLM-only Escalation Handling", 0.85, 0.25),
-]
-
-plt.figure(figsize=(11, 6.5))
-
-# Plot frontier
-plt.plot(
-    x,
-    frontier_y,
-    linewidth=3,
-    color=BITLOOPS_PURPLE,
-    label="Efficiency frontier (best achievable)",
-)
-
-# Plot dominated region
-plt.fill_between(
-    x,
-    0,
-    frontier_y,
-    color=BITLOOPS_PURPLE,
-    alpha=0.12,
-    label="Dominated deployments",
-)
-
-# Plot deployments
-for name, xi, yi in deployments:
-    plt.scatter(xi, yi, s=70, zorder=3, color="black")
-    plt.annotate(
-        name,
-        (xi, yi),
-        textcoords="offset points",
-        xytext=(6, 6),
-        ha="left",
-        fontsize=9,
-    )
-
-plt.xlabel("Task drift & long-tailness (low → high)")
-plt.ylabel("Effective outcomes per unit cost (higher is better)")
-plt.title("Efficiency Frontier of Intelligence: Right Tool for the Right Work")
-plt.grid(True, linestyle=":", linewidth=0.7)
-plt.legend(loc="upper right", fontsize=9)
-
-out_path = "/mnt/data/efficiency_frontier_bitloops.png"
-plt.tight_layout()
-plt.savefig(out_path, dpi=200)
-plt.show() -->
