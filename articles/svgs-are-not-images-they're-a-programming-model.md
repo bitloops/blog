@@ -3,7 +3,7 @@ title: SVGs Are Not Images — They're a Programming Model (And That's Why They'
 description: SVGs are DOM-based, programmable graphics—not just images. Learn how SVG primitives, viewBox, and CSS integration unlock scalable, interactive visuals, and how developers should think about SVGs.
 author: Sergio
 date: 13-January-2026
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/svgs_programming_model.png
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/SVGs_are_not_images_theyre_a_programming_model/SVGs_are_not_images_they_are_programming_model_hero.png
 tags:
   [
     "SVG",
