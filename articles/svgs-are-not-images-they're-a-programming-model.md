@@ -17,16 +17,6 @@ tags:
   ]
 ---
 
-## TL;DR
-
-- SVGs are not just image files — they are **DOM-based, programmable graphics**
-- SVG elements behave like HTML elements: they can be **styled, selected, and animated**
-- Understanding a **small set of primitives** unlocks most real-world SVG use cases
-- The real power of SVG comes from **combining geometry with CSS and JavaScript**
-- Tools like Bitloops leverage this model to generate **expressive, maintainable SVG code** automatically
-
-## Overview
-
 SVGs are often introduced as "just another image format." Technically, that's true — but practically, it misses the point.
 
 **SVGs are better understood as a graphics programming model that runs inside the browser.** They come with their own primitives, coordinate system, and rendering rules, but integrate seamlessly with the DOM, CSS, and JavaScript.
@@ -49,10 +39,10 @@ That means SVGs can be inlined directly in your markup:
 
 Once in the DOM, SVG elements can:
 
-- ✅ **Be styled with CSS** — Change colors, opacity, transforms
-- ✅ **Be selected with JavaScript** — `document.querySelector('circle')`
-- ✅ **Respond to events** — Click, hover, drag interactions
-- ✅ **Be animated** — Transitions, keyframes, or JavaScript-driven animations
+- **Be styled with CSS** — Change colors, opacity, transforms
+- **Be selected with JavaScript** — `document.querySelector('circle')`
+- **Respond to events** — Click, hover, drag interactions
+- **Be animated** — Transitions, keyframes, or JavaScript-driven animations
 
 Here's a practical example that showcases this power:
 
@@ -214,10 +204,10 @@ Both use the same internal coordinate system (`100×100`), but render at differe
 
 **The result:**
 
-- ✅ **Clean scaling** — No pixelation
-- ✅ **No blurriness** — Sharp at any size
-- ✅ **Reusable SVGs** — One asset, infinite sizes
-- ✅ **Responsive by default** — Just change `width`/`height`
+- **Clean scaling** — No pixelation
+- **No blurriness** — Sharp at any size
+- **Reusable SVGs** — One asset, infinite sizes
+- **Responsive by default** — Just change `width`/`height`
 
 **SVGs stay crisp because they're rendered from math, not pixels.**
 
@@ -297,6 +287,8 @@ For these use cases, hand-authored SVGs are often **smaller, clearer, and easier
 ```
 
 **Readable SVG is a feature, not a luxury.**
+
+---
 
 ## Common Mistakes Developers Make With SVG
 
@@ -595,11 +587,11 @@ At Bitloops, we treat SVGs as **structured, programmable UI**, not static assets
 
 When generating SVG code, Bitloops:
 
-- ✅ **Preserves semantic primitives** (`circle`, `rect`, `polygon`) instead of collapsing everything into opaque `<path>` elements
-- ✅ **Separates geometry from presentation** for better maintainability and theming
-- ✅ **Produces clean, readable code** that developers can understand and modify
-- ✅ **Optimizes for animation** by structuring elements to support CSS transitions and keyframes
-- ✅ **Enables theming** by using CSS variables and separating style from structure
+- **Preserves semantic primitives** (`circle`, `rect`, `polygon`) instead of collapsing everything into opaque `<path>` elements
+- **Separates geometry from presentation** for better maintainability and theming
+- **Produces clean, readable code** that developers can understand and modify
+- **Optimizes for animation** by structuring elements to support CSS transitions and keyframes
+- **Enables theming** by using CSS variables and separating style from structure
 
 ### Example: Bitloops-Generated Icon Component
 
@@ -641,10 +633,10 @@ SVGs aren't intimidating because they're complex — **they're intimidating beca
 
 Once you stop thinking of SVGs as images and start treating them as a **graphics programming model**, everything clicks:
 
-- ✅ **Primitives make sense** — They're just building blocks, like HTML elements
-- ✅ **Animations become approachable** — CSS transitions and keyframes just work
-- ✅ **Scaling stops being painful** — `viewBox` handles all the math
-- ✅ **Interactivity becomes natural** — DOM events, JavaScript, and CSS apply directly
+- **Primitives make sense** — They're just building blocks, like HTML elements
+- **Animations become approachable** — CSS transitions and keyframes just work
+- **Scaling stops being painful** — `viewBox` handles all the math
+- **Interactivity becomes natural** — DOM events, JavaScript, and CSS apply directly
 
 **SVG is one of the most powerful tools available in the browser** — especially when approached with a developer's mindset.
 
