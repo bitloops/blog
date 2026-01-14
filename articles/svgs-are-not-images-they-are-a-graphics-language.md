@@ -1,15 +1,15 @@
 ---
-title: SVGs Are Not Images — They're a Programming Model (And That's Why They're Powerful)
-description: SVGs are DOM-based, programmable graphics—not just images. Learn how SVG primitives, viewBox, and CSS integration unlock scalable, interactive visuals, and how developers should think about SVGs.
+title: SVG isn't just a file format - it's a whole graphics language in itself! (And that's why they're powerful!)
+description: SVGs are DOM-based, graphics language—not just images. Learn how SVG primitives, viewBox, and CSS integration unlock scalable, interactive visuals, and how developers should think about SVGs.
 author: Sergio
 date: 13-January-2026
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/SVGs_are_not_images_theyre_a_programming_model/SVGs-are-not-images.png
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/SVGs_are_not_images_they_are_a_graphics_language/SVGs-are-not-images.png
 tags:
   [
     "SVG",
     "Frontend Development",
     "Web Development",
-    "Graphics Programming",
+    "Graphics Language",
     "CSS Animation",
     "JavaScript",
     "Bitloops",
@@ -19,7 +19,7 @@ tags:
 
 SVGs are often introduced as "just another image format." Technically, that's true — but practically, it misses the point.
 
-**SVGs are better understood as a graphics programming model that runs inside the browser.** They come with their own primitives, coordinate system, and rendering rules, but integrate seamlessly with the DOM, CSS, and JavaScript.
+**SVGs are better understood as a graphics language that runs inside the browser.** They come with their own primitives, coordinate system, and rendering rules, but integrate seamlessly with the DOM, CSS, and JavaScript.
 
 This article introduces SVG from a developer's perspective — not as a design tool, but as a **system you can reason about, debug, and control with code**.
 
@@ -420,7 +420,7 @@ circle.setAttribute('r', originalR * scale);
 
 ## Practical Examples: SVG in the Wild
 
-Let's look at some real-world use cases where understanding SVG as a programming model makes all the difference.
+Let's look at some real-world use cases where understanding SVG as a graphics language makes all the difference.
 
 ### Example 1: Animated Progress Ring
 
@@ -577,7 +577,7 @@ Using CSS custom properties for perfect theme integration:
 </style>
 ```
 
-These examples showcase why treating SVG as a programming model — not just an image format — unlocks so much power.
+These examples showcase why treating SVG as a graphics language — not just an image format — unlocks so much power.
 
 ---
 
@@ -631,7 +631,7 @@ Because Bitloops leverages AI, we also **detect cases where SVG structure become
 
 SVGs aren't intimidating because they're complex — **they're intimidating because they're misunderstood.**
 
-Once you stop thinking of SVGs as images and start treating them as a **graphics programming model**, everything clicks:
+Once you stop thinking of SVGs as images and start treating them as a **graphics language**, everything clicks:
 
 - **Primitives make sense** — They're just building blocks, like HTML elements
 - **Animations become approachable** — CSS transitions and keyframes just work
@@ -646,7 +646,8 @@ Once you stop thinking of SVGs as images and start treating them as a **graphics
 2. **Use semantic primitives** (`circle`, `rect`, `polygon`) before reaching for `<path>`
 3. **Separate geometry from presentation** using CSS for styling
 4. **Master `viewBox`** to unlock resolution-independent graphics
-5. **Think in systems** — SVG is a programming model, not just a file format
+5. **Think in systems** — SVG is a graphics language, not just a file format
+6. **Prefer SVG over bitmap formats** whenever possible - if something can be represented as SVG, it usually should be.
 
 The next time you need an icon, a chart, a loader, or an interactive graphic, **reach for SVG**. It's not just an image format — it's a full-featured graphics API living in your browser.
 
