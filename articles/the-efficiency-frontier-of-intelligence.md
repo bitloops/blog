@@ -50,7 +50,7 @@ Cognitive technologies should be treated no differently.
 
 The mistake in most AI discussions is treating human intelligence as the baseline and artificial intelligence as an imitation. This framing is backwards. Humans are **one cognitive technology among others**, with a distinctive cost and capability profile.
 
-This does not diminish human intelligence. It makes it analyzable.
+This does not diminish human intelligence. It makes it analysable.
 
 ### 1.2 The Human Brain as a Cognitive Tool
 
@@ -75,7 +75,7 @@ They dominate not because they are free, but because they remain the most _effec
 
 ### 1.3 Algorithms as Cognitive Tools
 
-Algorithms represent a cognitive process that has been fully externalized and formalized.
+Algorithms represent a cognitive process that has been fully externalised and formalized.
 
 Their defining characteristics are:
 
@@ -88,7 +88,7 @@ The cost of an algorithm is paid almost entirely upfront, through human cognitiv
 
 Once implemented, an algorithm executes cheaply and indefinitely—but only within the narrow region where the problem is fully specified. Outside that region, algorithms are simply ineffective.
 
-Algorithms are not “dumb.” They are **externalized intelligence frozen into code**.
+Algorithms are not “dumb.” They are **externalised intelligence frozen into code**.
 
 ### 1.4 Specialized Machine Learning Models as Cognitive Tools
 
@@ -323,7 +323,7 @@ It includes:
 
 Specification cost is often invisible because humans absorb it implicitly through communication and shared context.
 
-For machines, specification must be externalized:
+For machines, specification must be externalised:
 
 - Code
 - Schemas
@@ -353,7 +353,7 @@ Examples:
 - **Humans:** education, experience, re-training
 - **Algorithms:** problem analysis, design, coding, testing, maintenance
 - **Specialized ML:** data collection, labeling, model training, tuning
-- **LLMs:** massive pretraining plus task-specific fine-tuning or data augmentation
+- **LLMs:** massive pre-training plus task-specific fine-tuning or data augmentation
 
 This cost is paid **before any useful output exists**.
 
@@ -878,7 +878,7 @@ They are easier to reason about because their design choices are explicit.
 
 This architectural philosophy directly informs how [**Bitloops**](https://bitloops.com) is built.
 
-Rather than treating large language models as universal execution engines, Bitloops focuses on:
+Rather than treating LLMs as universal execution engines, Bitloops focuses on:
 
 - leveraging deterministic tooling and static analysis where problems are formal
 - using specialized models where uncertainty is bounded
