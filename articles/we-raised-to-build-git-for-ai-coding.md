@@ -1,5 +1,5 @@
 ---
-title: A new chapter after our EUR1M round
+title: A new chapter after our EUR 1M round
 description: On March 3, 2026, Bitloops shares its next chapter - from an initial frontend AI focus to broader infrastructure for AI software development.
 author: Vasilis
 date: 03-March-2026
