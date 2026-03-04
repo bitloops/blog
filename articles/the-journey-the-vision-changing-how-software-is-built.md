@@ -1,10 +1,10 @@
 ---
-title: The Journey, The Vision - Changing backend software | Bitloops
-description: How often have your product ideas been shelved due to lack of resources, or high cost / time to implement? Well, we at Bitloops want to change that!
+title: The Journey, The Vision - Changing How Software Is Built | Bitloops
+description: Product ideas are often shelved because software complexity outpaces team capacity. This is the Bitloops vision for improving software development in the AI era.
 author: Sergio
 date: 29-November-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/luggage.jpg
-tags: ['Bitloops Language', 'Clean Architecture', 'Clean Code', 'Developer Productivity','Backend Development','Software Development']
+tags: ['AI Coding', 'Developer Productivity', 'Software Development', 'Engineering Quality', 'Software Architecture']
 ---
 
 ## The Pain
@@ -40,27 +40,16 @@ Most developer tools are about how to make it easier to write new code in a vacu
 
 ## The Vision
 
-Bitloops has been developed to solve these very issues, which are the issues we were facing in our previous companies, and the same issues that have been reinforced through discussions with many other engineers across several companies. 
-All Software Engineers want nice clean and well-designed code so they can ship new features or products in a timely manager. 
+Bitloops is built to solve a core problem in modern engineering teams: AI can generate code quickly, but most workflows still lack context, continuity, and accountability.
 
-However, given the pressure to meet spring goals and the lack of experience, most developers compromise on code quality to meet those deadlines, which leads to poor-looking code, unstructured designs and loss of productivity in the medium to long term. 
+We believe developers should be able to ship fast **without** sacrificing system quality. That requires infrastructure that captures why decisions were made, helps agents understand the codebase before editing, and enforces standards before changes are merged.
 
-The [Bitloops Language](https://bitloops.com/bitloops-language) has been designed by taking into consideration the best practices and methodologies in software design, as well as taking into account the **basic principles of software development** and lifecycle such as deployment, security and integration with 3rd party services. 
+Our current focus is built around three principles:
 
-The platform is able to guide developers in developing well-structured code and high-quality systems, without having to compromise on speed, and is based on 4 core principles:
+1. **Context first:** AI agents need structural and semantic understanding of the codebase, not just prompt text.
+2. **History as a first-class asset:** Teams should be able to review decision trails, alternatives, and constraints for every significant AI-assisted change.
+3. **Governance without friction:** Validation rules should run in pre-commit and CI so architecture and quality standards scale with velocity.
 
-1. **Developer first:** Bitloops has been designed around developers’ thinking, coding practices and day-to-day activities. Therefore, Bitloops enables developers to be far more productive and faster 
+With Bitloops, teams can improve development speed while increasing traceability and reliability.
 
-2. **Guiding blocks:** The Bitloops Language is opinionated in the sense that it guides developers to follow widely accepted best practices and design patterns that will ensure developers avoid big balls of mud in their code, and that the system remains flexible enough for iteration and/or refactoring 
-
-3. **Cloud native:** meaning all applications developed using Bitloops can be easily and quickly deployed, as well as optimized from an architecture / deployment perspective (for the more knowledgeable devops out there). 
-
-4. **Integration:** it is imperative to build applications in such a way that it remains flexible as a superset of several existing tools and services that work seamlessly together that drastically improve productivity
-
-With Bitloops businesses can develop high-quality software, are able to improve their products faster and ultimately, grow more quickly than their competition. Moreover, not only can users develop applications much faster, but they can replatform legacy applications across a broad range of use cases to drive their business forward. 
-
-At Bitloops, we have a vision to democratize the power of high-quality software so organizations can easily build software applications and tools that fit their needs. We believe we are pioneering a new category of backend development that will change how developers spend their day, how they prioritize their efforts and how they interact with each other and with the rest of the organization. 
-
-We were constantly struggling with the number of projects and features that we simply abandoned due to the lack of resources, or the complexity in implementing them (some of which were very simple) due to the underlying architecture and the number of stakeholders that needed to be involved given unnecessary coupling or bad software design choices. Our mission is to empower companies and tech teams to never say no to a valid business idea! 
-
-*Note: The [Bitloops Platform](https://bitloops.com/) is still under development, however, we have launched the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language) which is a high-productivity, 4th generation programming language that incorporates industry best practices, patterns and methodologies such as [DDD](https://bitloops.com/docs/bitloops-language/learning/software-design/domain-driven-design), Clean Architecture, SOLID & Clean Code into its structure and syntax to empower developers to write better code and build better software.*
+At Bitloops, we still believe in the same core mission: empower teams to build and evolve high-quality software with less friction and less technical debt. The difference today is that we are applying that mission to the AI coding era.

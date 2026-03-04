@@ -215,9 +215,9 @@ Ignore it, and your product doesn’t just lose consistency - it loses credibili
    > “If it’s part of the interface chrome, it lives in code.  
    > If it’s part of the message, it lives in the CMS.”
 
-4. **Validate During Design Handoff**  
-   When importing designs (e.g., from Figma), mark which text elements are chrome vs. content.  
-   This makes design-to-code automation smarter and reduces rework later.
+4. **Validate During AI-Assisted Handoffs**  
+   During implementation planning, mark which text elements are chrome vs. content.  
+   This gives AI agents clearer context and reduces rework later.
 
 ## The Takeaway
 

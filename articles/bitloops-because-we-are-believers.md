@@ -6,6 +6,7 @@ date: 30-November-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/light-bulb.jpg
 tags: ['Software Development', 'Developer Productivity', 'Vision', 'Developer Platform', 'Technical Debt','Software Design']
 ---
+
 ## Bitloops, because we are believers!
 
 The founding team at Bitloops has been obsessing over developer productivity for a few years. We constantly say to each other: **“how cool would it be if software was built in such a way that there was no technical debt?"** or **"wouldn't it be great if a feature for a complex and mature product was as easy as developing a feature for a new (greenfield) application?"** 
@@ -58,11 +59,11 @@ We believe that:
 * Built in version control and code review systems
 * Tests should be considered 1st class citizens in all development steps
 
-**Oh yes, we are big believers**, and that’s why we are building [Bitloops](https://bitloops.com/), a developer platform that will allow developers to build software using best practices and methodologies, creating systems that are testable, maintainable and extendable, 10x faster and better than current options. 
+**Oh yes, we are big believers**, and that’s why we are building [Bitloops](https://bitloops.com/), a developer platform focused on AI-assisted software development that remains testable, maintainable, and explainable.
 
-We've already launched the [Open Source Bitloops Language](https://github.com/bitloops/bitloops-language), which is a 4th generation, high productivity programming language that guides teams to write code following the agreed industry best design practices such as [DDD](https://bitloops.com/docs/bitloops-language/learning/software-design/domain-driven-design), Clean Architecture, SOLID and Clean Code.
+Today, Bitloops is focused on the infrastructure layer AI coding needs: activity history, codebase context tooling, and governance controls that help teams scale AI usage without scaling chaos.
 
-Moreover, we're now working on a [design-2-code tool](https://bitloops.com/#why-section) that will act as a Co-Pilot to frontend engineers building user interfances. It not only does all the nitty gritty work in seconds, but it helps developers structure code, data models and leverage design principles with ease.  
+We believe great engineering is not only about generating code quickly, but also about preserving intent, enforcing standards, and making every important decision reviewable over time.
 
 Because we are believers, we want to push the boundaries of software development to a whole new level, where developers and domain experts once again spend most of their time thinking, designing and solving problems in the best possible way. 
 
