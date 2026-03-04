@@ -1,14 +1,36 @@
 ---
-title: New Version Release Enhanced Control
-description: This article slug is retained as an archive entry for backward compatibility.
-author: Bitloops
-date: 04-March-2026
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/code.jpg
-tags: ['Archive', 'Release Notes', 'Bitloops']
+title: Empowering Developers with Enhanced Control
+description: We're working on a new version of Bitloops. Our focus remains on developer productivity with innovative design-to-code automation. Our up-coming platform release offers enhanced control, allowing developers to fine-tune automated code for more personalized and efficient project outcomes.
+author: Vasilis
+date: 14-June-2024
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Convert_designs_to_code.jpg
+tags: ['Design-to-Code', 'Frontend Development', 'Figma-to-Code', 'HTML', 'CSS', 'React']
 ---
+#### At Bitloops, our core mission is to accelerate the productivity of developers by providing innovative solutions
 
-# New Version Release Enhanced Control
+Since our inception, we've been at the forefront of exploring and developing cutting-edge technology to assist developers in completing their tasks more efficiently.
 
-This page is retained for backward compatibility.
+Our initial release of the Bitloops Platform was a groundbreaking step in the field of [design-to-code](/design-to-code) automation. It focused on the ambitious goal of converting Figma designs into responsive, functional code automatically. 
 
-The original article has been archived.
+This pilot version prioritised research into complex problem-solving, employing both advanced algorithms and AI-driven methods. The result was a system capable of generating a complete web page from a Figma design with minimal user input. This approach, while maximising productivity by reducing the time to just a few seconds or minutes, inherently required the system to make numerous decisions on behalf of the user.
+
+&nbsp;
+![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_empowering_frontend_developers.jpg)
+&nbsp;
+
+#### Empowering developers with enhanced control in code generation
+Feedback from our users indicated a desire for more control over the code generation process. Developers expressed the need to tweak and tailor the output, as projects often involve specific requirements that are not purely aesthetic but also functional, with long-term implications.
+
+Responding to this feedback, our upcoming version introduces a more developer-centric approach. We are enhancing the Bitloops Platform to allow developers more control over every aspect of the code generation process. 
+
+Recognizing that there is often no "perfect" solution, the new version facilitates a balance between automation and customization. Developers can now adjust and fine-tune the automated output to better fit their specific project needs and personal preferences.
+
+The enhanced control doesn't just stop at tweaking the code. We're empowering developers to invest more time in strategic tasks—those that require human insight and are crucial for the project's long-term evolution. 
+
+&nbsp;
+![file_version_history](https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/design_to_code_giving_developers_more_control.jpg)
+&nbsp;
+
+The [Bitloops Platform](/) aims to handle the routine coding tasks, thereby saving developers several hours each day. This shift not only boosts productivity but also enhances job satisfaction, as developers can focus on more engaging and impactful aspects of their projects.
+
+In conclusion, our next version of the Bitloops Platform is about giving power back to the developers. By marrying AI efficiency with human creativity, we're setting the stage for more personalised, contextually aware, and ultimately successful project outcomes. Stay tuned for more updates and get ready to experience the next level of coding automation that respects the developer's intuition and expertise while giving them a huge boost in productivity.
