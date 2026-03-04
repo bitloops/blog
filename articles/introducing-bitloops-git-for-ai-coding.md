@@ -15,8 +15,6 @@ tags:
   ]
 ---
 
-# Introducing Bitloops — Git for AI Coding
-
 Software development has changed faster than the infrastructure around it.
 
 We can generate code at a scale and speed that wasn't possible two years ago. Sessions that used to take days take hours. Refactors that required a senior engineer now run in the background while you work on something else.
