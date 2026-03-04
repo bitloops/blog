@@ -4,9 +4,16 @@ description: The 2026 playbook for becoming a top software engineer - first prin
 author: Sergio
 date: 04-March-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/How%20to%20become%20a%20developer/future_ready.jpg
-tags: ['Software Engineering', 'Career Growth', 'AI Coding', 'Software Architecture', 'Developer Productivity', 'Engineering Leadership']
+tags:
+  [
+    "Software Engineering",
+    "Career Growth",
+    "AI Coding",
+    "Software Architecture",
+    "Developer Productivity",
+    "Engineering Leadership"
+  ]
 ---
-
 
 # How to Become a Top Software Engineer in 2026
 

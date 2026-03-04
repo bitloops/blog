@@ -4,9 +4,18 @@ description: SVGs are DOM-based, graphics language—not just images. Learn how 
 author: Sergio
 date: 13-January-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/SVGs_are_not_images_they_are_a_graphics_language/SVGs-are-not-images.png
-tags: ['SVG', 'Frontend Development', 'Web Development', 'Graphics Language', 'CSS Animation', 'JavaScript', 'Bitloops', 'Design-2-Code']
+tags:
+  [
+    "SVG",
+    "Frontend Development",
+    "Web Development",
+    "Graphics Language",
+    "CSS Animation",
+    "JavaScript",
+    "Bitloops",
+    "Design-2-Code"
+  ]
 ---
-
 
 SVGs are often introduced as "just another image format." Technically, that's true — but practically, it misses the point.
 

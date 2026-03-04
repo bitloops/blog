@@ -4,9 +4,17 @@ description: A practical framework for deploying human intelligence, algorithms,
 author: Vasilis
 date: 27-December-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/the-efficiency-frontier-of-intelligence/efficiency-frontier-of-intelligence.png
-tags: ['Artificial Intelligence', 'AI', 'Large Language Models', 'Machine Learning', 'Software Architecture', 'Systems Design', 'AI Economics']
+tags:
+  [
+    "Artificial Intelligence",
+    "AI",
+    "Large Language Models",
+    "Machine Learning",
+    "Software Architecture",
+    "Systems Design",
+    "AI Economics"
+  ]
 ---
-
 
 # The Efficiency Frontier of Intelligence
 
