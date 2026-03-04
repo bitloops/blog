@@ -3,7 +3,7 @@ title: Introducing Bitloops - Git for AI Coding
 description: Git captures what changed. Bitloops captures why. Learn how Bitloops adds context, memory, and governance to AI-assisted software development.
 author: Sergio
 date: 04-March-2026
-image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/introducing-bitloops-git-for-ai-coding.png
+image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/context-aware-engineering.png
 tags:
   [
     "AI Coding",
