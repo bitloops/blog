@@ -4,12 +4,9 @@ description: How to balance the tension between parent-children relationships in
 author: Vasilis
 date: 20-January-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/what-ui-layout-can-learn-from-good-parenting.png
-tags:
-  [
-    "UI Layout",
-    "CSS"
-  ]
+tags: ['UI Layout', 'CSS']
 ---
+
 
 # What UI Layout Can Learn from Good Parenting
 

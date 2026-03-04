@@ -4,16 +4,9 @@ description: Bitloops raises €1M to revolutionize frontend code generation. Di
 author: Vasilis
 date: 18-June-2025
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Bitloops-Cofounders.jpeg
-tags:
-  [
-    "Future of AI",
-    "Bitloops AI Workflow",
-    "Design-to-Code Automation",
-    "AI-Assisted Coding",
-    "Pre-Seed",
-    "Venture Capital"
-  ]
+tags: ['Future of AI', 'Bitloops AI Workflow', 'Design-to-Code Automation', 'AI-Assisted Coding', 'Pre-Seed', 'Venture Capital']
 ---
+
 
 Every UI starts as a design—but getting from that design to production-ready code is anything but simple. Behind every button, layout, and variant lies a maze of decisions: how to structure components, handle responsiveness, plug into design systems, and avoid the kind of tech debt that quietly spirals out of control.
 

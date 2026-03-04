@@ -4,16 +4,9 @@ description: On March 3, 2026, Bitloops shares its next chapter - from an initia
 author: Vasilis
 date: 03-March-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Bitloops-Team.jpeg
-tags:
-  [
-    "AI Coding",
-    "Developer Productivity",
-    "AI Governance",
-    "Bitloops Platform",
-    "Pre-Seed",
-    "Venture Capital"
-  ]
+tags: ['AI Coding', 'Developer Productivity', 'AI Governance', 'Bitloops Platform', 'Pre-Seed', 'Venture Capital']
 ---
+
 
 On **March 3, 2026**, we’re sharing the next chapter of the Bitloops story.
 

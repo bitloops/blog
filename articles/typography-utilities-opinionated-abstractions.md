@@ -4,15 +4,9 @@ description: Typography utilities like text-sm bundle font size and line height.
 author: Sergio
 date: 20-January-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/typography-utilities/typography-utilities-heroimage.png
-tags:
-  [
-    "Tailwind CSS",
-    "Frontend Development",
-    "Typography",
-    "Layout Debugging",
-    "Design Systems"
-  ]
+tags: ['Tailwind CSS', 'Frontend Development', 'Typography', 'Layout Debugging', 'Design Systems']
 ---
+
 
 ## Typography Utilities Are Opinionated Abstractions (And That’s Okay)
 

@@ -4,16 +4,9 @@ description: Git captures what changed. Bitloops captures why. Learn how Bitloop
 author: Sergio
 date: 04-March-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/Bitloops_Team_Photo.jpg
-tags:
-  [
-    "AI Coding",
-    "Developer Productivity",
-    "Software Engineering",
-    "AI Governance",
-    "Context Engineering",
-    "Bitloops"
-  ]
+tags: ['AI Coding', 'Developer Productivity', 'Software Engineering', 'AI Governance', 'Context Engineering', 'Bitloops']
 ---
+
 
 # Introducing Bitloops - Git for AI Coding
 
