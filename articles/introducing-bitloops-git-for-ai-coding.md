@@ -11,7 +11,7 @@ tags:
     "Software Engineering",
     "AI Governance",
     "Context Engineering",
-    "Bitloops",
+    "Bitloops"
   ]
 ---
 

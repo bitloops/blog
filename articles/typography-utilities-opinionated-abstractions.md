@@ -10,7 +10,7 @@ tags:
     "Frontend Development",
     "Typography",
     "Layout Debugging",
-    "Design Systems",
+    "Design Systems"
   ]
 ---
 

@@ -13,7 +13,7 @@ tags:
     "CSS Animation",
     "JavaScript",
     "Bitloops",
-    "Design-2-Code",
+    "Design-2-Code"
   ]
 ---
 

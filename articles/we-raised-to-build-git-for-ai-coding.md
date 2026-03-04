@@ -11,7 +11,7 @@ tags:
     "AI Governance",
     "Bitloops Platform",
     "Pre-Seed",
-    "Venture Capital",
+    "Venture Capital"
   ]
 ---
 

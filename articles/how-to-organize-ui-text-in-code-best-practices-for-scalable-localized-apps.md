@@ -11,7 +11,7 @@ tags:
     "Chrome-Text",
     "CMS",
     "Content-Text",
-    "Content-Management",
+    "Content-Management"
   ]
 ---
 

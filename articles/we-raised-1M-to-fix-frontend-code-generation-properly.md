@@ -11,7 +11,7 @@ tags:
     "Design-to-Code Automation",
     "AI-Assisted Coding",
     "Pre-Seed",
-    "Venture Capital",
+    "Venture Capital"
   ]
 ---
 

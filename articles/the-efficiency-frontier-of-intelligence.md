@@ -12,7 +12,7 @@ tags:
     "Machine Learning",
     "Software Architecture",
     "Systems Design",
-    "AI Economics",
+    "AI Economics"
   ]
 ---
 
