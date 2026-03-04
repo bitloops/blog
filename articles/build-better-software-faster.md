@@ -5,7 +5,7 @@ author: Sergio
 date: 04-December-2022
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/code.jpg
 tags: ['Developer Tools', 'Software Development', 'Developer Productivity', 'Software Engineering', 'Software Design', 'Best Practices']
---- 
+---
 
 ## **1. The State of Software Development Today**
 

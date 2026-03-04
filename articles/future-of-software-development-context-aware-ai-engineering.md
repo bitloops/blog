@@ -5,7 +5,7 @@ author: Sergio
 date: 24-February-2026
 image: https://storage.googleapis.com/bitloops-github-assets/Blog%20Images/paints.jpg
 tags: ['Software Development', 'AI Coding', 'Developer Productivity', 'Software Architecture', 'Software Engineering']
---- 
+---
 
 **The future of software development is context-aware AI engineering.**
 
