@@ -11,7 +11,7 @@ tags:
     "AI Coding",
     "Software Architecture",
     "Developer Productivity",
-    "Engineering Leadership",
+    "Engineering Leadership"
   ]
 ---
 
